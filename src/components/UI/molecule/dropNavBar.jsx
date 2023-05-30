@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import Button from "../atom/button";
 import { FaBars } from 'react-icons/fa';
 import "./dropNavBar.css";
@@ -11,9 +11,11 @@ const handleClick = () => {
     console.log('hello2');
   }
 
+
+
 export const DropNavbar = () => {
+  
     return ( <nav>
-        
         <div className="dropNavBar-dropdown">
             <div className="dropNavBar-menu">
             <Button btnVariant={'pink'} btnText={"button1"} onClick={() => handleClick2()}/>

@@ -16,4 +16,25 @@ button.blue{
 }
 button.black{
   background-color: black;
+
+}
+button.white{
+  background-color: rgb(255, 255, 255);
+}
+
+button.icon-pink{
+  background-color: rgb(255, 255, 255);
+  color: pink;
+  
+}
+button.icon-black{
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+}
+
+.button.icon-pink:hover{
+  transform: scale(1.5) 
+}
+button.icon-black:hover{
+  transform: scale(1.5)
 }

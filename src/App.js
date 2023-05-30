@@ -1,20 +1,22 @@
 import './App.css';
-import NavBar from './components/UI/molecule/navBar';
-import { FaBars } from 'react-icons/fa';
-import DropNavbar from './components/UI/molecule/dropNavBar';
+import NavBar from './components/UI/organism/navBar';
+import LaserTag from './components/UI/atom/animations/laserTag';
+import React from 'react';
 
 
 
+class App extends React.Component {
 
-function App() {
-  return (
-    <div className="App">
-      <NavBar />
-    
-      
-      
-    </div>
-  );
+  render() {
+    return (
+      <div className="App">
+        <LaserTag />
+        <NavBar />
+        
+      </div>
+    );
+  }
 }
 
 export default App;
+

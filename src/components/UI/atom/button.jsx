@@ -1,6 +1,6 @@
 import React from 'react';
 import './button.css';
-import PropTypes from 'prop-types';
+import PropTypes, { any } from 'prop-types';
 
 
 export const Button = ({btnText,btnVariant, onClick, btnIcon}) => {
@@ -13,14 +13,14 @@ export const Button = ({btnText,btnVariant, onClick, btnIcon}) => {
 };
 Button.propTypes = {
   btnText: PropTypes.string,
-  btnVariant: PropTypes.oneOf(['pink', 'blue', 'black']),
-  btnIcon: PropTypes.string,
+  btnVariant: PropTypes.oneOf(['pink', 'blue', 'black','white', 'icon-pink', 'icon-black']),
+  btnIcon: any,
   onClick: PropTypes.func,
 };
 
 Button.defaultProps = {
-  btnText: "helloWorld",
-  btnVariant: 'blue',
+  btnText: null,
+  btnVariant: 'white',
   onClick: undefined,
   btnIcon: null,
 };
