@@ -9,18 +9,20 @@
 
 .dropNavBar-dropdown{
     position:relative;
-    transform: all 0.3s ease-in-out;
-    justify-content: flex-end; 
+    
+    
 }
 
 .dropNavBar-menu{
     position: absolute;
-    left: -300%;
-    top: calc(100% + .25rem);
-    background-color: rgb(255, 255, 255);
-    padding: .75rem;
-    box-shadow: 0 2px 5px 0 rgba(0,0,0,.1);
+    left: -600%;
+    top: calc(100% + .55rem);
+    border-radius: 10px;
+    background: linear-gradient(to right, #1d242b 30%, #12262e 70%);
+    padding: 1.5rem;
+    box-shadow: rgba(22, 36, 41, 0.56) 0px 22px 70px 4px;   
     display: grid;
-    grid-gap: 15px;
+    grid-gap: 20px;
+    
     /*grid-template-rows: 1fr max-content;*/
 }

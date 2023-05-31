@@ -15,15 +15,15 @@ const handleClick = () => {
 
 export const DropNavbar = () => {
   
-    return ( <nav>
-        <div className="dropNavBar-dropdown">
+    return ( <nav className="dropNavBar-dropdown">
             <div className="dropNavBar-menu">
-            <Button btnVariant={'pink'} btnText={"button1"} onClick={() => handleClick2()}/>
-            <Button btnVariant={'blue'} btnText={"button2"} onClick={() => handleClick()}/>
+            <Button btnVariant={'custom-btn btn-11'} btnText={"button1"} onClick={() => handleClick2()}/>
+            <Button btnVariant={'custom-btn btn-11'} btnText={"button2"} onClick={() => handleClick()}/>
             </div>
-        </div>
+        
         
     </nav>)
+    
 }
 
 export default DropNavbar;

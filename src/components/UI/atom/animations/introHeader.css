@@ -1,0 +1,35 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: #1d1f20;
+  }
+  h1 {
+    font-family: 'Inconsolata', Consolas, monospace;
+    font-size: 4em;
+    color: #d7b94c;
+  }
+  .typing {
+    position: relative;
+  }
+  .typing::after {
+    content: "|";
+    position: absolute;
+    right: 0;
+    width: 50%;
+    color: white;
+    background: #1d1f20;
+    animation: typing 1s steps(16) forwards, caret 1s infinite;
+  }
+  @keyframes typing {
+    to {
+      width: 0;
+    }
+  }
+  @keyframes caret {
+    50% {
+      color: transparent;
+    }
+  }
+  

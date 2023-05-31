@@ -4,13 +4,13 @@
     align-items: center;
     font-size: 1.2rem;
     padding: 0 35px;
-    background-color: #ffffff;
+    background: linear-gradient(to right, #191b1d 30%, #151d21 70%);
     /* box-shadow: 0 5px 15px rgba(0,0,0,0.25); */
-    width: 95%;
+    width: 100%;
     height : 50px;
-    border-radius: 15px;
+    border-radius: 0px;
     position: fixed;
-    top: 10px;
+    top: 0px;
     left: 50%;
     transform: translate(-50%);   
 } 
@@ -24,7 +24,7 @@
     text-align: center;
     justify-content: end;
     position: relative;
-    left: 100%;
+    left: 97%;
     transform: translate(-100%);
 }
 
@@ -57,8 +57,7 @@
         transform: all 0.3s ease-in-out;
             
     }
-    
-    
+
     .navBarIcons{
         display: block;
         position: absolute;
@@ -66,7 +65,77 @@
         cursor: pointer;
             
     }
+    
 }
+html {
+    height: 100%;
+    background: linear-gradient(#813b97, #463c96);
+}
+@keyframes progress1 {
+    0% {
+        transform: scalex(0);
+        opacity: 0.5;
+   }
+    90% {
+        transform: scalex(1);
+        opacity: 1;
+   }
+    92% {
+        transform: scalex(1);
+        opacity: 1;
+   }
+    100% {
+        transform: scalex(1);
+        opacity: 0;
+   }
+}
+@keyframes progress2 {
+    0% {
+        transform: scale(0.3, 0.8) translatez(0);
+        opacity: 0;
+   }
+    90% {
+        transform: scale(1, 1) translatex(300px) translatez(0);
+        opacity: 1;
+   }
+    100% {
+        transform: scale(1, 1) translatex(300px) translatez(0);
+        opacity: 0;
+   }
+}
+.line {
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    left: 0%;
+    height: 2px;
+    background: rgba(255, 255, 255, .1);
+    opacity: 0.5;
+}
+.line:before {
+    animation: progress1 20s infinite;
+    transform-origin: 0 0;
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right, #77A1D3 10%, #79CBCA 80%, #E684AE);
+    
+}
+/*.line:after {
+    content: "";
+    position: absolute;
+    animation: progress2 3s infinite;
+    transform-origin: 90% 30%;
+    margin-left: -200px;
+    top: -9px;
+    width: 20px;
+    height: 21px;
+    border-radius: 2px;
+    background: rgba(210, 189, 255, .55);
+    filter: blur(8px);
+    box-shadow: 0 0 4px 6px rgba(210, 189, 255, .4), -20px 0 15px 4px rgba(210, 189, 255, .3), -40px 0 15px 2px rgba(210, 189, 255, .2), -60px 0 10px 1px rgba(210, 189, 255, .1), -80px 0 10px 1px rgba(210, 189, 255, .05);
+}*/
 
 
 
