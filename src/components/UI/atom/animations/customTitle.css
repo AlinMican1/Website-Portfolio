@@ -1,0 +1,195 @@
+.class1{
+    height:100px;
+    width:100px;
+    display:flex;
+    align-items:center;
+    top:30%;
+}
+
+.class2{
+    border:none;
+    outline:none;
+    color:white;
+    font-size: 0%;
+    position: fixed;
+    left:10vw;
+    top:15vh;
+}
+
+.button-text{
+    background-color: transparent;
+    color: white;
+    border: none;
+    font-size: 70px;
+    display: flex;
+    cursor: default;
+    
+}
+
+#L2{
+    top:0px;
+    left:45px;
+    position: absolute;
+}
+#L3{
+    top:80px;
+    left:0px;
+    position: absolute;
+}
+#L4{
+    top:80px;
+    left:55px;
+    position: absolute;
+}
+#L5{
+    top:80px;
+    left:105px;
+    position: absolute;
+}
+#L6{
+    top:80px;
+    left:140px;
+    position: absolute;
+}
+#L7{
+    top:80px;
+    left:175px;
+    position: absolute;
+}
+#L8{
+    top:80px;
+    left:230px;
+    position: absolute;
+}
+#L9{
+    top:80px;
+    left:280px;
+    position: absolute;
+}
+
+#L10{
+    top:80px;
+    left:295px;
+    position: absolute;
+}
+
+#L11{
+    top:170px;
+    left:0px;
+    position: absolute;
+}
+
+#L12{
+    top:170px;
+    left:45px;
+    position: absolute;
+}
+
+#L13{
+    top:170px;
+    left:56px;
+    position: absolute;
+}
+
+#L14{
+    top:170px;
+    left:68px;
+    position: absolute;
+}
+
+
+.button-text:hover{
+    color:rgb(243, 159, 249);
+    animation: animate 0.6s;
+}
+@keyframes animate{
+    25%{
+        transform: scale(0.8,1.3);
+    }
+    50%{
+        transform: scale(1.1,0.3);
+    }
+    75%{
+        transform: scale(0.7,1.2);
+    }
+}
+
+@media screen and (min-device-width: 320px) and (max-device-width: 430px){
+    .class2{
+        left:6vw;
+    }
+    .button-text{
+        font-size: 40px;
+    }
+    #L2{
+        top:0px;
+        left:28px;
+        position: absolute;
+    }
+    #L3{
+        top:45px;
+        left:0px;
+        position: absolute;
+    }
+    #L4{
+        top:45px;
+        left:34px;
+        position: absolute;
+    }
+    #L5{
+        top:45px;
+        left:70px;
+        position: absolute;
+    }
+    #L6{
+        top:45px;
+        left:90px;
+        position: absolute;
+    }
+    #L7{
+        top:45px;
+        left:110px;
+        position: absolute;
+    }
+    #L8{
+        top:45px;
+        left:142px;
+        position: absolute;
+    }
+    #L9{
+        top:45px;
+        left:180px;
+        position: absolute;
+    }
+    
+    #L10{
+        top:45px;
+        left:188px;
+        position: absolute;
+    }
+    
+    #L11{
+        top:100px;
+        left:0px;
+        position: absolute;
+    }
+    
+    #L12{
+        top:100px;
+        left:27px;
+        position: absolute;
+    }
+    
+    #L13{
+        top:100px;
+        left:35px;
+        position: absolute;
+    }
+    
+    #L14{
+        top:100px;
+        left:43px;
+        position: absolute;
+    }
+        
+}
