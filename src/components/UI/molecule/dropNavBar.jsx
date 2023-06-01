@@ -17,8 +17,8 @@ export const DropNavbar = () => {
   
     return ( <nav className="dropNavBar-dropdown">
             <div className="dropNavBar-menu">
-            <Button btnVariant={'custom-btn btn-11'} btnText={"button1"} onClick={() => handleClick2()}/>
-            <Button btnVariant={'custom-btn btn-11'} btnText={"button2"} onClick={() => handleClick()}/>
+            <Button btnVariant={'custom-button'} btnText={"button1"} onClick={() => handleClick2()}/>
+            <Button btnVariant={'custom-button'} btnText={"button2"} onClick={() => handleClick()}/>
             </div>
         
         
