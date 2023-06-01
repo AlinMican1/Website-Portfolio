@@ -1,35 +1,79 @@
-body {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    background: #1d1f20;
+.wrapper {
+  height: 40vh;
+  position: absolute;
+  /*This part is important for centering*/
+  display: grid;
+  place-items: center;
+  left: 10%;
+   
+}
+
+.typing-demo {
+  width: 12ch;
+  font-weight: bold;
+  color: #d7b94c;
+  animation: typing 1s steps(22), blink .5s step-end infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 6px solid;
+  font-family: 'Inconsolata', Consolas, monospace;
+  font-size: 5em;
+}
+@keyframes typing {
+  from {
+    width: 0
   }
-  h1 {
-    font-family: 'Inconsolata', Consolas, monospace;
-    font-size: 4em;
-    color: #d7b94c;
+}   
+@keyframes blink {
+  50% {
+    border-color: transparent
   }
-  .typing {
-    position: relative;
-  }
-  .typing::after {
-    content: "|";
+}
+
+@media screen and (min-device-width: 320px) and (max-device-width: 430px){
+  .wrapper {
+    height: 30vh;
     position: absolute;
-    right: 0;
-    width: 50%;
-    color: white;
-    background: #1d1f20;
-    animation: typing 1s steps(16) forwards, caret 1s infinite;
+    /*This part is important for centering*/
+    display: grid;
+    place-items: center;
+    left: 10%;
+     
   }
-  @keyframes typing {
-    to {
-      width: 0;
-    }
+  .typing-demo {
+    width: 12ch;
+    font-weight: bold;
+    color: #d7b94c;
+    animation: typing 1s steps(22), blink .5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid;
+    font-family: 'Inconsolata', Consolas, monospace;
+    font-size: 2em;
   }
-  @keyframes caret {
-    50% {
-      color: transparent;
-    }
+}
+
+@media screen and (min-device-width: 540px) and (max-device-width: 700px){
+  .wrapper {
+    height: 40vh;
+    position: absolute;
+    /*This part is important for centering*/
+    display: grid;
+    place-items: center;
+    left: 10%;
+     
   }
+  .typing-demo {
+    width: 12ch;
+    font-weight: bold;
+    color: #d7b94c;
+    animation: typing 1s steps(22), blink .5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid;
+    font-family: 'Inconsolata', Consolas, monospace;
+    font-size: 3em;
+  }
+}
+
   

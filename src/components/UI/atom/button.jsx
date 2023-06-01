@@ -9,11 +9,11 @@ export const Button = ({btnText,btnVariant, onClick, btnIcon}) => {
     {btnText}
     
   </button>)
-
 };
+
 Button.propTypes = {
   btnText: PropTypes.string,
-  btnVariant: PropTypes.oneOf(['custom-button', 'icon-black', 'icon-pink']),
+  btnVariant: PropTypes.oneOf(['custom-button','custom-button-2', 'icon-black', 'icon-pink']),
   btnIcon: any,
   onClick: PropTypes.func,
 };
