@@ -1,0 +1,26 @@
+.gif-wrapper{
+    position: flex;
+    min-width: 100%;
+    min-height: 40vh;
+    
+}
+.gif-content{
+    position: absolute;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+    left: 50vw;
+    top: 5vh;
+
+}
+
+@media screen and (min-device-width: 320px) and (max-device-width: 430px){
+}
+
+@media screen and (max-width: 999px){
+    .gif-content{
+        display: none;
+    
+    }
+
+}

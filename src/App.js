@@ -10,10 +10,11 @@ class App extends React.Component {
   render() {
     return (
       <div className="App">
-        <GifAnimation gifUrl={"https://giphy.com/gifs/scaler-official-funny-cartoon-coding-HLB0nLA36GCCo6JuB5"} />
-        <CustomTitle />
-        <QuoteText quote={"He who conquers himself is the mightiest warrior."} author={"- Confucius "}  />
         <NavBar />
+        <CustomTitle />
+        <GifAnimation/>
+        
+        
         
       </div>
       
