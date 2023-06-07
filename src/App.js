@@ -5,6 +5,7 @@ import React from 'react';
 import CustomTitle from './components/UI/atom/animations/customTitle';
 import QuoteText from './components/UI/atom/animations/quoteText';
 import GifAnimation from './components/UI/atom/animations/gifAnimation';
+import Modal1 from './components/UI/atom/modal1';
 
 class App extends React.Component {
   render() {
@@ -12,7 +13,7 @@ class App extends React.Component {
       <div className="App">
         <NavBar />
         <CustomTitle />
-        <GifAnimation/>
+        <Modal1/>
         
         
         

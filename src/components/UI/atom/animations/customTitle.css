@@ -20,7 +20,8 @@
     background-color: transparent;
     color: white;
     border: none;
-    font-size: 70px;
+   
+    font-size: 225px;
     display: flex;
     cursor: default;
     
@@ -28,72 +29,72 @@
 
 #L2{
     top:0px;
-    left:45px;
+    left:140px;
     position: absolute;
 }
 #L3{
-    top:80px;
+    top:170px;
     left:0px;
     position: absolute;
 }
 #L4{
-    top:80px;
-    left:55px;
+    top:170px;
+    left:170px;
     position: absolute;
 }
 #L5{
-    top:80px;
-    left:105px;
+    top:170px;
+    left:300px;
     position: absolute;
 }
 #L6{
-    top:80px;
-    left:140px;
+    top:170px;
+    left:410px;
     position: absolute;
 }
 #L7{
-    top:80px;
-    left:175px;
+    top:170px;
+    left:515px;
     position: absolute;
 }
 #L8{
-    top:80px;
-    left:230px;
+    top:170px;
+    left:688px;
     position: absolute;
 }
 #L9{
-    top:80px;
-    left:280px;
+    top:170px;
+    left:830px;
     position: absolute;
 }
 
 #L10{
-    top:80px;
-    left:295px;
+    top:170px;
+    left:865px;
     position: absolute;
 }
 
 #L11{
-    top:170px;
+    top:400px;
     left:0px;
     position: absolute;
 }
 
 #L12{
-    top:170px;
-    left:45px;
+    top:400px;
+    left:140px;
     position: absolute;
 }
 
 #L13{
-    top:170px;
-    left:56px;
+    top:400px;
+    left:168px;
     position: absolute;
 }
 
 #L14{
-    top:170px;
-    left:68px;
+    top:400px;
+    left:197px;
     position: absolute;
 }
 
@@ -114,82 +115,163 @@
     }
 }
 
-@media screen and (min-device-width: 320px) and (max-device-width: 430px){
+@media screen and (min-width: 0px) and (max-width: 550px){
     .class2{
         left:6vw;
     }
     .button-text{
-        font-size: 40px;
+        font-size: 75px;
     }
     #L2{
         top:0px;
-        left:28px;
+        left:45px;
         position: absolute;
     }
     #L3{
-        top:45px;
+        top:70px;
         left:0px;
         position: absolute;
     }
     #L4{
-        top:45px;
-        left:34px;
+        top:70px;
+        left:58px;
         position: absolute;
     }
     #L5{
-        top:45px;
-        left:70px;
+        top:70px;
+        left:100px;
         position: absolute;
     }
     #L6{
-        top:45px;
-        left:90px;
+        top:70px;
+        left:137px;
         position: absolute;
     }
     #L7{
-        top:45px;
-        left:110px;
+        top:70px;
+        left:174px;
         position: absolute;
     }
     #L8{
-        top:45px;
-        left:142px;
+        top:70px;
+        left:233px;
         position: absolute;
     }
     #L9{
-        top:45px;
-        left:180px;
+        top:70px;
+        left:280px;
         position: absolute;
     }
     
     #L10{
-        top:45px;
-        left:188px;
+        top:70px;
+        left:293px;
         position: absolute;
     }
     
     #L11{
-        top:100px;
+        top:155px;
         left:0px;
         position: absolute;
     }
     
     #L12{
-        top:100px;
-        left:27px;
+        top:155px;
+        left:45px;
         position: absolute;
     }
     
     #L13{
-        top:100px;
-        left:35px;
+        top:155px;
+        left:55px;
         position: absolute;
     }
     
     #L14{
-        top:100px;
-        left:43px;
+        top:155px;
+        left:65px;
         position: absolute;
     }
         
 }
+
+@media screen and (min-width: 550px) and (max-width: 1082px){
+    .class2{
+        left:6vw;
+    }
+    .button-text{
+        font-size: 110px;
+    }
+    #L2{
+        top:0px;
+        left:70px;
+        position: absolute;
+    }
+    #L3{
+        top:85px;
+        left:0px;
+        position: absolute;
+    }
+    #L4{
+        top:85px;
+        left:84px;
+        position: absolute;
+    }
+    #L5{
+        top:85px;
+        left:150px;
+        position: absolute;
+    }
+    #L6{
+        top:85px;
+        left:204px;
+        position: absolute;
+    }
+    #L7{
+        top:85px;
+        left:255px;
+        position: absolute;
+    }
+    #L8{
+        top:85px;
+        left:340px;
+        position: absolute;
+    }
+    #L9{
+        top:85px;
+        left:420px;
+        position: absolute;
+    }
+    
+    #L10{
+        top:85px;
+        left:435px;
+        position: absolute;
+    }
+    
+    #L11{
+        top:200px;
+        left:0px;
+        position: absolute;
+    }
+    
+    #L12{
+        top:200px;
+        left:70px;
+        position: absolute;
+    }
+    
+    #L13{
+        top:200px;
+        left:85px;
+        position: absolute;
+    }
+    
+    #L14{
+        top:200px;
+        left:102px;
+        position: absolute;
+    }
+        
+}
+
