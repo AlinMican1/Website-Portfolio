@@ -6,8 +6,8 @@
     padding: 0 35px;
     background: linear-gradient(to right, #272a2d 30%, #152228 70%);
     /* box-shadow: 0 5px 15px rgba(0,0,0,0.25); */
-    width: 100%;
-    height : 50px;
+    width: 100vw;
+    height : 5vh;
     border-radius: 0px;
     position: fixed;
     top: 0px;

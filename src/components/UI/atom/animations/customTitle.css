@@ -11,7 +11,7 @@
     outline:none;
     color:white;
     font-size: 0%;
-    position: fixed;
+    position: relative;
     left:10vw;
     top:15vh;
 }

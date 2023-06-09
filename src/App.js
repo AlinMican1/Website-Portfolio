@@ -1,24 +1,26 @@
 import './App.css';
-import NavBar from './components/UI/organism/navBar';
-import IntroHeader from './components/UI/atom/animations/introHeader';
 import React from 'react';
-import CustomTitle from './components/UI/atom/animations/customTitle';
-import QuoteText from './components/UI/atom/animations/quoteText';
-import GifAnimation from './components/UI/atom/animations/gifAnimation';
-import Modal1 from './components/UI/atom/modal1';
+import ParticlesBackground from './components/UI/atom/animations/particles';
+import HomeScreen from './components/template/homeScreen';
+import AboutScreen from './components/template/aboutScreen';
+
 
 class App extends React.Component {
   render() {
     return (
-      <div className="App">
-        <NavBar />
-        <CustomTitle />
-        <Modal1/>
+      <div className='App'>
+        <div className='particle'>
+          <ParticlesBackground />
+        </div>
         
-        
-        
-      </div>
-      
+        <div className = "Section" id='home'>
+            <HomeScreen />
+        </div>
+        <div className = "Section" id='about'>
+            <AboutScreen />
+            <div className='box'></div>
+        </div>
+    </div>
       
     );
   }
