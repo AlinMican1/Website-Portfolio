@@ -6,7 +6,9 @@
   z-index: 1000;
   
 }
-
+.particle{
+  z-index: -10;
+}
 
 /*colour for text #d7b94c */
 .Section{
@@ -15,7 +17,7 @@
 }
 
 #home{
-  
+  background-color: white;
   flex: 1,1,auto;
   height:100%;
   
@@ -25,5 +27,6 @@
   height:100%;
   flex: 1,1,auto;
   padding-top: 5vh;
+  background-color: pink;
 }
 
