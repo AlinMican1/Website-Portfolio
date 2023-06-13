@@ -1,22 +1,24 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import './gifAnimation.css';
 import PropTypes from 'prop-types';
 import Lottie from 'lottie-react';
 import programming from './Programing.json';
+import { useWindowSize } from '../../../../custom-hooks/SizeScreen-hook';
+import { useState } from 'react';
+
 
 const style = {
-  height: 500,
-  width: 500,
+  height: 650,
+  width: 650,
   
 };
 
 export const GifAnimation = () => {
+  
     return (
-        <div className='gif-wrapper'>
-          <div className='gif-content'>
+       
               <Lottie className='gif-wrapper' style={style} animationData={programming}/>
-              </div>
-        </div>
+       
         
        
   )

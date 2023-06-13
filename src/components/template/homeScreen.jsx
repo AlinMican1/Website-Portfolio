@@ -9,10 +9,7 @@ export const HomeScreen = ({aboutRef,homeRef,scroll}) => {
             
             <CustomTitle/>
             <Navbar aboutRef={aboutRef} homeRef={homeRef} scroll={scroll} />
-            <div className='particle'>
-                <ParticlesBackground/>
-            </div>
-
+            
       </div>
     
   )

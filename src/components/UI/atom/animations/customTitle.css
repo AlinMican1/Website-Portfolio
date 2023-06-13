@@ -13,7 +13,7 @@
     font-size: 0%;
     position: relative;
     left:10vw;
-    top:15vh;
+    top:20vh;
 }
 
 .button-text{
@@ -33,75 +33,75 @@
     position: absolute;
 }
 #L3{
-    top:170px;
+    top:200px;
     left:0px;
     position: absolute;
 }
 #L4{
-    top:170px;
+    top:200px;
     left:170px;
     position: absolute;
 }
 #L5{
-    top:170px;
+    top:200px;
     left:300px;
     position: absolute;
-    color: pink;
+    color: #0aff9d;
     font-style: italic;
 }
 #L6{
-    top:170px;
+    top:200px;
     left:410px;
     position: absolute;
-    color: pink;
+    color: #0aff9d;
     font-style: italic;
 }
 #L7{
-    top:170px;
+    top:200px;
     left:515px;
     position: absolute;
-    color: pink;
+    color: #0aff9d;
     font-style: italic;
 }
 #L8{
-    top:170px;
+    top:200px;
     left:688px;
     position: absolute;
-    color: pink;
+    color: #0aff9d;
     font-style: italic;
 }
 #L9{
-    top:170px;
+    top:200px;
     left:830px;
     position: absolute;
 }
 
 #L10{
-    top:170px;
+    top:200px;
     left:865px;
     position: absolute;
 }
 
 #L11{
-    top:400px;
+    top:470px;
     left:0px;
     position: absolute;
 }
 
 #L12{
-    top:400px;
+    top:470px;
     left:140px;
     position: absolute;
 }
 
 #L13{
-    top:400px;
+    top:470px;
     left:168px;
     position: absolute;
 }
 
 #L14{
-    top:400px;
+    top:470px;
     left:197px;
     position: absolute;
 }
