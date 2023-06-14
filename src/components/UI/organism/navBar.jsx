@@ -1,4 +1,5 @@
-import React, {useEffect, useState} from "react";
+import React, {useEffect, useState, useRef} from "react";
+import forwardRef from "react";
 import Button from "../atom/button";
 import './navBar.css';
 import { FaBars } from 'react-icons/fa';
@@ -13,11 +14,7 @@ const handleClick = () => {
     console.log('hello1');
   }
   
-  const handleClick2 = () => {
-    console.log('hello2');
-  }
-
-export const Navbar = () => {
+export const Navbar = ({aboutRef,homeRef,scroll}) => {
     const [openDropNav, setDropNav] = useState(false);
     const[width,height] = useWindowSize();
     useEffect(()=>{
@@ -25,18 +22,24 @@ export const Navbar = () => {
             setDropNav(false);
         }
     },[width])
+
+    
+      
     return ( 
+    
     <nav className="navBarStyle">
+        
         <div className="line"></div>
         <div className="navBarIcons">
             <Button btnVariant={'icon-pink'} btnIcon={<FaBars></FaBars>} onClick={() => setDropNav(!openDropNav)} />
-            {openDropNav && <DropNavbar/>}
+            {openDropNav && <DropNavbar aboutRef={aboutRef} homeRef={homeRef} scroll={scroll} />}
             
         </div>
         
         <ul className="navBarButtons">
-            <Button btnVariant={'custom-button'} btnText={"button1"} onClick={() => handleClick2()}/>
-            <Button btnVariant={'custom-button'} btnText={"button2"} onClick={() => handleClick()}/>
+            <Button btnVariant={'custom-button'} btnText={"about"} onClick={() => scroll(aboutRef)}/>
+            <Button btnVariant={'custom-button'} btnText={"home"} onClick={() => scroll(homeRef)}/>
+            
         </ul>
         
     </nav>

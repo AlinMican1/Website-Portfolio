@@ -6,7 +6,9 @@
   z-index: 1000;
   
 }
-
+.particle{
+  z-index: -10;
+}
 
 /*colour for text #d7b94c */
 .Section{
@@ -15,7 +17,7 @@
 }
 
 #home{
-  
+  background-color: transparent;
   flex: 1,1,auto;
   height:100%;
   
@@ -24,6 +26,7 @@
 #about{
   height:100%;
   flex: 1,1,auto;
-  padding-top: 5vh;
+  padding-top: 3vh;
+  background-color: transparent;
 }
 

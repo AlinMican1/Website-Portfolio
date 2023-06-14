@@ -3,25 +3,14 @@ import Button from "../atom/button";
 import { FaBars } from 'react-icons/fa';
 import "./dropNavBar.css";
 
-const handleClick = () => {
-    console.log('hello1');
-  }
-  
-  const handleClick2 = () => {
-    console.log('hello2');
-  }
 
-
-
-export const DropNavbar = () => {
+export const DropNavbar = ({aboutRef,homeRef,scroll}) => {
   
     return ( <nav className="dropNavBar-dropdown">
             <div className="dropNavBar-menu">
-            <Button btnVariant={'custom-button'} btnText={"button1"} onClick={() => handleClick2()}/>
-            <Button btnVariant={'custom-button'} btnText={"button2"} onClick={() => handleClick()}/>
+            <Button btnVariant={'custom-button'} btnText={"home"} onClick={() => scroll(homeRef)}/>
+            <Button btnVariant={'custom-button'} btnText={"about"} onClick={() => scroll(aboutRef)}/>
             </div>
-        
-        
     </nav>)
     
 }
