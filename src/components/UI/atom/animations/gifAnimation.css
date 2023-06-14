@@ -2,6 +2,8 @@
     position: flex;
     min-width: 100%;
     min-height: 40vh;
+    width: 600px;
+    height: 600px;
     
 }
 .gif-content{
@@ -17,10 +19,43 @@
 @media screen and (min-device-width: 320px) and (max-device-width: 430px){
 }
 
-@media screen and (max-width: 999px){
-    .gif-content{
-        display: none;
+@media screen and (max-width: 1400px){
+    .gif-wrapper{
+        min-height: 70vh;
+        width: 500px;
+        height: 500px;
     
     }
+    
+
+}
+
+@media screen and (max-width: 1200px){
+    .gif-wrapper{
+        
+    
+    }
+    
+
+}
+@media screen and (max-width: 1105px){
+    .gif-wrapper{
+        
+        
+    
+    }
+    
+
+}
+@media screen and (max-width: 608px){
+    .gif-wrapper{
+        min-width: 100%;
+        min-height: 20vh;
+        width: 300px;
+        height: 300px;
+        
+    
+    }
+    
 
 }

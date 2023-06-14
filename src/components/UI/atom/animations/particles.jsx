@@ -26,7 +26,7 @@ export const ParticlesBackground = () => {
           },
           particles: {
             color: {
-              value: "#ffb6c1"
+              value: "#0aff9d"
             },
             links: {
               color: "#ffffff",
@@ -65,7 +65,9 @@ export const ParticlesBackground = () => {
               value: { min: 1, max: 5 }
             }
           },
+        
           detectRetina: true
+          
         }
     
   const particlesInit = useCallback(async engine => {

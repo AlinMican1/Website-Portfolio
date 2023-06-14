@@ -2,11 +2,8 @@ import { AboutMe } from "../UI/atom/aboutMe";
 export const AboutScreen = () => {
     return (
         <div>
-            <AboutMe/>
-            
-            
-            
-            
+            <AboutMe />
+
         </div>
     
   )
