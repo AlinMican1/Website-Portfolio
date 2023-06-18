@@ -4,9 +4,9 @@ import ParticlesBackground from './components/UI/atom/animations/particles';
 import HomeScreen from './components/template/homeScreen';
 import AboutScreen from './components/template/aboutScreen';
 import { useRef } from 'react';
-import AboutMe from './components/UI/atom/aboutMe';
+import smoothscroll from 'smoothscroll-polyfill';
 
-
+smoothscroll.polyfill();
 /*class App extends React.Component {
   render() {
     
@@ -39,7 +39,6 @@ const App = () =>{
       top: elementRef.current.offsetTop,
       behavior: "smooth",
     })
-    
   } 
   
   return (
@@ -49,14 +48,11 @@ const App = () =>{
       <div className='particle'>
         <ParticlesBackground />
       </div>
-      
       <div ref={homeSection} className = "Section" id='home'>
           <HomeScreen aboutRef={aboutSection} homeRef={homeSection} scroll={scrollToSection}/>
       </div>
       <div ref={aboutSection} className = "Section" id='about'>
          <AboutScreen/>
-          
-          
       </div>
   </div>
     
