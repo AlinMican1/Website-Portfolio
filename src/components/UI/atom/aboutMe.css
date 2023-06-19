@@ -12,6 +12,8 @@
     width: 100%;
     min-height: 100vh;
     background-color: transparent;
+    
+    
 }
 .container .title{
     width: 100%;
@@ -47,6 +49,8 @@
    box-shadow: 0px,0px,2px,0px rgba(0,0,0,0.2); 
    background-color: #272a2d;
    padding: 25px 25px;
+   border-radius: 64px;
+  
 }
 .content .article h2{
     color: #0aff9d;
@@ -58,7 +62,7 @@
 .content .article p{
     margin-top: 40px;
     font-size: 19px;
-    line-height: 1.5;
+    line-height: 1.5em;
     color: #ffffff;
 
 }
@@ -83,7 +87,7 @@
     }
     .container .title h1::after{
         content: "";
-        height: 6px;
+        height: 4px;
         width: 250px;
         
     }
@@ -92,6 +96,21 @@
         
     
     }
+    .content .article p{
+        margin-top: 30px;
+        font-size: 16px;
+        line-height: 1.5;
+        
+    }
+    .content .article h2{
+        color: #0aff9d;
+        font-size: 19px;
+        line-height: 20px;
+        letter-spacing: 1; 
+    }
+    .content .article{
+        
+     }
 }
 
 @media screen and (min-width: 400px) and (max-width: 500px){
@@ -131,5 +150,39 @@
     .content .article{
         padding: 25px 25px;
      }
+
 }
+@media screen and (min-width: 800px) and (max-width: 950px){
+    .container .title{
+        font-size: 35px;
+    }
+    .container .title h1::after{
+        content: "";
+        height: 6px;
+        width: 270px;
+        
+    }
+    .content{
+        grid-gap: 0px;
+        margin: 0px auto;
+    }
+
+    .content .article p{
+        margin-top: 40px;
+        font-size: 23px;
+        line-height: 1.5em;
+        color: #ffffff;
     
+    }
+
+    .content .article h2{
+        color: #0aff9d;
+        font-size: 28px;
+        line-height: 28px;
+        letter-spacing: 1.5px; 
+    }
+    .content .article{
+        padding: 25px 25px;
+     }
+    
+    }

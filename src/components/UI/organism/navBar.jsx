@@ -14,7 +14,7 @@ const handleClick = () => {
     console.log('hello1');
   }
 
-export const Navbar = ({aboutRef,homeRef,scroll}) => {
+export const Navbar = ({aboutRef,homeRef,skillsRef,scroll}) => {
     const [openDropNav, setDropNav] = useState(false);
     const[width,height] = useWindowSize();
     useEffect(()=>{
@@ -26,17 +26,17 @@ export const Navbar = ({aboutRef,homeRef,scroll}) => {
     return ( 
     <nav className="navBarStyle">
         
-        
-            <ScrollIndicator/>
+        <ScrollIndicator/>
         <div className="navBarIcons">
             <Button btnVariant={'icon-pink'} btnIcon={<FaBars></FaBars>} onClick={() => setDropNav(!openDropNav)} />
-            {openDropNav && <DropNavbar aboutRef={aboutRef} homeRef={homeRef} scroll={scroll} />}
+            {openDropNav && <DropNavbar aboutRef={aboutRef} homeRef={homeRef} skillsRef={skillsRef} scroll={scroll} />}
             
         </div>
         
         <ul className="navBarButtons">
             <Button btnVariant={'custom-button'} btnText={"about"} onClick={() => scroll(aboutRef)}/>
             <Button btnVariant={'custom-button'} btnText={"home"} onClick={() => scroll(homeRef)}/>
+            <Button btnVariant={'custom-button'} btnText={"skills"} onClick={() => scroll(skillsRef)}/>
         </ul>
         
     </nav>
