@@ -1,10 +1,10 @@
-import React, {useEffect, useState, useRef} from "react";
-import forwardRef from "react";
+import React, {useEffect, useState} from "react";
 import Button from "../atom/button";
 import './navBar.css';
 import { FaBars } from 'react-icons/fa';
 import DropNavbar from "../molecule/dropNavBar";
 import { useWindowSize } from "../../../custom-hooks/SizeScreen-hook";
+import { ScrollIndicator } from "../atom/scrollIndicator";
 
 /* Combining a drop down navigation bar with a normal navigation bar 
 for responsiveness when the page is too small the user should be allowed 
@@ -13,8 +13,8 @@ to access a drop menu of buttons. */
 const handleClick = () => {
     console.log('hello1');
   }
-  
-export const Navbar = ({aboutRef,homeRef,scroll}) => {
+
+export const Navbar = ({aboutRef,homeRef,skillsRef,scroll}) => {
     const [openDropNav, setDropNav] = useState(false);
     const[width,height] = useWindowSize();
     useEffect(()=>{
@@ -23,29 +23,25 @@ export const Navbar = ({aboutRef,homeRef,scroll}) => {
         }
     },[width])
 
-    
-      
     return ( 
-    
     <nav className="navBarStyle">
         
-        <div className="line"></div>
+        <ScrollIndicator/>
         <div className="navBarIcons">
             <Button btnVariant={'icon-pink'} btnIcon={<FaBars></FaBars>} onClick={() => setDropNav(!openDropNav)} />
-            {openDropNav && <DropNavbar aboutRef={aboutRef} homeRef={homeRef} scroll={scroll} />}
+            {openDropNav && <DropNavbar aboutRef={aboutRef} homeRef={homeRef} skillsRef={skillsRef} scroll={scroll} />}
             
         </div>
         
         <ul className="navBarButtons">
             <Button btnVariant={'custom-button'} btnText={"about"} onClick={() => scroll(aboutRef)}/>
             <Button btnVariant={'custom-button'} btnText={"home"} onClick={() => scroll(homeRef)}/>
-            
+            <Button btnVariant={'custom-button'} btnText={"skills"} onClick={() => scroll(skillsRef)}/>
         </ul>
         
     </nav>
     
     )
 }
-
 
 export default Navbar;

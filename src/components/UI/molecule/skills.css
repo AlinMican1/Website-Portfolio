@@ -1,0 +1,352 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;700;900&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+.skill{
+    padding: 0 0 50px;
+    position: relative;
+    font-family: 'Roboto', sans-serif;  
+}
+.skill-box{
+    background: #272a2d;
+    border-radius: 64px;
+    text-align:center;
+    padding: 60px 50px;
+    width: min(100vw, 85%);
+    margin: auto;
+    
+}
+
+.skill h2{
+    justify-content: center;
+    text-transform: uppercase;
+    font-size: 75px;
+    font-weight: 900;
+    color: #ffffff;
+    letter-spacing: 1.5px;
+}
+.skill h2::after{
+    content: "";
+    height: 6px;
+    width: 200px;
+    background-color: #0aff9d;
+    border-radius:  6px;
+    position: relative;
+    display:block;
+    margin:auto;
+}
+
+.skill h5{
+    font-size: 45px;
+    font-weight: 700;
+    font-style: italic;
+    color: white;
+}
+.skill p{
+    color: white;
+    font-size: 20px;
+    letter-spacing: 0.8px;
+    line-height: 1.5em;
+    margin: 14px 0 75px 0;
+
+}
+
+.skill-slider{
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
+}
+
+
+.skill-slider .item {
+    width:100%;
+    margin: 0 auto 15px auto;
+}
+
+.react-multiple-carousel__arrow--left{
+    
+}
+
+@media screen and (min-width: 0px) and (max-width: 400px){
+    .skill h2{
+        font-size: 50px;
+        font-weight: 700;
+        
+    }
+    .skill h2::after{
+        
+        height: 4px;
+        width: 140px;
+       
+    }
+    .skill p{
+        
+        font-size: 16px;
+        letter-spacing: 0.8px;
+        line-height: 1.5em;
+        margin: 14px 0 0px 0;
+    
+    }
+
+    .skill h5{
+        font-size: 20px;
+        font-weight: 400;
+        font-style: italic;
+        
+    }
+    .react-multiple-carousel__arrow--left{
+        border-radius: 15px;
+        z-index: 1000;
+        border: 0;
+        background: rgba(0,0,0,0.5);
+        min-width: 20px;
+        min-height: 20px;
+        opacity: 1;
+        cursor: pointer;
+        left:0vw
+        
+    }
+    .react-multiple-carousel__arrow--right{
+        border-radius: 15px;
+        z-index: 1000;
+        border: 0;
+        background: rgba(0,0,0,0.5);
+        min-width: 20px;
+        min-height: 20px;
+        opacity: 1;
+        cursor: pointer;
+        right:0vw
+    }
+    .skill-box{
+        background: #272a2d;
+        border-radius: 64px;
+        text-align:center;
+        padding: 60px 50px;
+        width: min(100vw, 85%);
+        margin: auto;
+        
+    }
+    
+}
+@media screen and (min-width: 400px) and (max-width: 450px){
+    .skill h2{
+        font-size: 50px;
+        font-weight: 700;
+        
+    }
+    .skill h2::after{
+        height: 4px;
+        width: 140px;
+       
+    }
+    .skill p{
+        
+        font-size: 16px;
+        letter-spacing: 0.8px;
+        line-height: 1.5em;
+        margin: 14px 0 0px 0;
+    
+    }
+
+    .skill h5{
+        font-size: 20px;
+        font-weight: 400;
+        font-style: italic;
+        
+    }
+    
+    .react-multiple-carousel__arrow--left{
+        border-radius: 15px;
+        z-index: 1000;
+        border: 0;
+        background: transparent;
+        min-width: 20px;
+        min-height: 20px;
+        opacity: 1;
+        cursor: pointer;
+        left:0vw
+        
+    }
+    .react-multiple-carousel__arrow--right{
+        border-radius: 15px;
+        z-index: 1000;
+        border: 0;
+        background: transparent;
+        min-width: 20px;
+        min-height: 20px;
+        opacity: 1;
+        cursor: pointer;
+        right:0vw
+    }
+    .skill-box{
+        background: #272a2d;
+        border-radius: 64px;
+        text-align:center;
+        padding: 60px 50px;
+        width: min(100vw, 85%);
+        margin: auto;
+        
+    }
+
+}
+@media screen and (min-width: 450px) and (max-width: 550px){
+    .skill h2{
+        font-size: 50px;
+        font-weight: 700;
+        
+    }
+    .skill h2::after{
+        height: 4px;
+        width: 140px;
+       
+    }
+    .skill p{
+        
+        font-size: 16px;
+        letter-spacing: 0.8px;
+        line-height: 1.5em;
+        margin: 25px 0 30px 0;
+    
+    }
+
+    .skill h5{
+        font-size: 20px;
+        font-weight: 400;
+        font-style: italic;
+        
+    }
+    
+    .react-multiple-carousel__arrow--left{
+        border-radius: 15px;
+        z-index: 1000;
+        border: 0;
+        background: transparent;
+        min-width: 30px;
+        min-height: 30px;
+        opacity: 1;
+        cursor: pointer;
+        left:0vw
+        
+    }
+    .react-multiple-carousel__arrow--right{
+        border-radius: 15px;
+        z-index: 1000;
+        border: 0;
+        background: transparent;
+        min-width: 30px;
+        min-height: 30px;
+        opacity: 1;
+        cursor: pointer;
+        right:0vw
+    }
+    .skill-box{
+        background: #272a2d;
+        border-radius: 64px;
+        text-align:center;
+        padding: 60px 50px;
+        width: min(100vw, 85%);
+        margin: auto;
+        
+    }
+}
+@media screen and (min-width: 550px) and (max-width: 750px){
+    .skill h2{
+        font-size: 50px;
+        font-weight: 700;
+        
+    }
+    .skill h2::after{
+        height: 4px;
+        width: 140px;
+       
+    }
+    .skill p{
+        
+        font-size: 16px;
+        letter-spacing: 0.8px;
+        line-height: 1.5em;
+        margin: 25px 0 30px 0;
+    
+    }
+
+    .skill h5{
+        font-size: 20px;
+        font-weight: 400;
+        font-style: italic;
+        
+    }
+    
+    .react-multiple-carousel__arrow--left{
+        border-radius: 15px;
+        z-index: 1000;
+        border: 0;
+        background: transparent;
+        min-width: 30px;
+        min-height: 30px;
+        opacity: 1;
+        cursor: pointer;
+        left:0vw
+        
+    }
+    .react-multiple-carousel__arrow--right{
+        border-radius: 15px;
+        z-index: 1000;
+        border: 0;
+        background: transparent;
+        min-width: 30px;
+        min-height: 30px;
+        opacity: 1;
+        cursor: pointer;
+        right:0vw
+    }
+    .skill-box{
+        background: #272a2d;
+        border-radius: 64px;
+        text-align:center;
+        padding: 60px 50px;
+        width: min(100vw, 85%);
+        margin: auto;
+        
+    }
+}
+@media screen and (min-width: 750px) and (max-width: 950px){
+    
+
+    .skill h5{
+        font-size: 20px;
+        font-weight: 400;
+        font-style: italic;
+        
+    }
+    
+    .react-multiple-carousel__arrow--left{
+        border-radius: 25px;
+        z-index: 1000;
+        border: 0;
+        background: transparent;
+        min-width: 40px;
+        min-height: 40px;
+        opacity: 1;
+        cursor: pointer;
+        left:0vw
+        
+    }
+    .react-multiple-carousel__arrow--right{
+        border-radius: 25px;
+        z-index: 1000;
+        border: 0;
+        background: transparent;
+        min-width: 40px;
+        min-height: 40px;
+        opacity: 1;
+        cursor: pointer;
+        right:0vw
+    }
+    .skill-box{
+        background: #272a2d;
+        border-radius: 64px;
+        text-align:center;
+        padding: 60px 50px;
+        width: min(100vw, 85%);
+        margin: auto;
+        
+    }
+}
