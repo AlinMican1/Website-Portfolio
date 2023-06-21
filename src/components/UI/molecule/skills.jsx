@@ -3,16 +3,14 @@ import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import "./skills.css"
 import { SpeedOmeter } from "../atom/speedOmeter";
-import {motion} from 'framer-motion';
-import { useInView } from "react-intersection-observer";
-import { useEffect } from 'react';
-import { useAnimation } from 'framer-motion';
+import Reveal from "../atom/animations/reveal";
+
 
 
 export const Skills = () => {
-    const{ref,inView} = useInView();
+    /*const{ref,inView} = useInView();
     const animation = useAnimation();
-  
+    
   
     useEffect(() =>{
         if(inView){
@@ -23,12 +21,13 @@ export const Skills = () => {
             type:'spring',duration:2,bounce:0
           }
         });
+        
       
       }
       if(!inView){
         animation.start({x:'-100vw'})
       }
-  },[inView])
+  },[inView])*/
     
     const responsive = {
         superLargeDesktop: {
@@ -38,7 +37,7 @@ export const Skills = () => {
         },
         desktop: {
           breakpoint: { max: 3000, min: 750 },
-          items: 2,
+          items: 3,
         },
         tablet: {
           breakpoint: { max: 750, min: 464 },
@@ -51,22 +50,33 @@ export const Skills = () => {
       };
 
     return (
-        <section ref={ref} className="skill" id = "skills">
-            <motion.div animate={animation}>
+        <section className="skill" id = "skills">
+            
             <Container>
                 <Row>
                     <Col>
+                    
+                    <h1>
+                    <Reveal>
+                        Skills<span>.</span>
+                        </Reveal>
+                    </h1>
+                    
+                    
                     <div className="skill-box">
-                        <h2>
-                            Skills
-                        </h2>
+                        <Reveal>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores nesciunt veniam, est magni 
                             perferendis praesentium dignissimos maxime magnam.</p>
+                        </Reveal>
+                        
                         <Carousel responsive={responsive} infinite={true} className="skills-slider">
+                            
                             <div className="item">
+                                
                                 <SpeedOmeter percent={25} />
                                 <h5>Web Development</h5>
                             </div>
+                            
                             <div className="item">
                                 <SpeedOmeter percent={65} />
                                 <h5>Web Development</h5>
@@ -80,12 +90,14 @@ export const Skills = () => {
                                 <h5>Web Development</h5>
                             </div>
                         </Carousel>
+                        
                     </div>
+                    
                     </Col>
                 </Row>
 
             </Container>
-            </motion.div>
+            
             
         </section>
     )

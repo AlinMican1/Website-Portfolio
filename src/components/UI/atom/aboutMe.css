@@ -1,6 +1,4 @@
-
-
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;700;900&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;700;900&family=Poppins:wght@900&family=Roboto:wght@100;300;400;500;700;900&display=swap');
 .all{
     margin: 0px;
     padding:0px;
@@ -11,32 +9,52 @@
 .container{
     width: 100%;
     min-height: 100vh;
-    background-color: transparent;
+    background-color: rgba(37, 34, 34, 0);
     
     
 }
 .container .title{
     width: 100%;
     display: flex;
-    align-items: center;
-    justify-content: center;
-    text-transform: uppercase;
-    font-size: 40px;
+    align-items: left;
+    justify-content: left;
+    position: relative;
+    
+    font-size: 45px;
     color: #ffffff;
     letter-spacing: 1.5px;
     padding: 50px 0px;
+    padding-left: 8%;
+    padding-bottom: 2%;
+    font-family: 'Poppins', sans-serif;
     
 }
-.container .title h1::after{
-    content: "";
-    height: 6px;
-    width: 300px;
+.container .title span{
+    color: #0aff9d;
+    
+}
+/*.line {
+    position: relative;
+    top: 90px;
+    left: 30px;
+    right: 0;
+    height: 2px;
+    width: 55%;
     background-color: #0aff9d;
+    transform: translateY(-50%);
+    display:none;
+  }*/
+/*.container .title h1::after{
+    content: "";
+    height: 1px;
+    width: 200px;
+    background-color: #0aff9d;
+    top:0%;
     border-radius:  6px;
     position: relative;
     display:block;
     margin:auto;
-}
+}*/
 .content{
     width: 85%;
     display: grid;
@@ -47,7 +65,7 @@
 }
 .content .article{
    box-shadow: 0px,0px,2px,0px rgba(0,0,0,0.2); 
-   background-color: #272a2d;
+   background-color: #0c0c0c;
    padding: 25px 25px;
    border-radius: 64px;
   
@@ -83,7 +101,9 @@
 }
 @media screen and (min-width: 0px) and (max-width: 400px){
     .container .title{
-        font-size: 30px;
+        font-size: 25px;
+        
+        
     }
     .container .title h1::after{
         content: "";
@@ -110,12 +130,17 @@
     }
     .content .article{
         
-     }
+    }
+    .line {
+        display: none;
+      }
 }
 
 @media screen and (min-width: 400px) and (max-width: 500px){
     .container .title{
-        font-size: 35px;
+        font-size: 25px;
+        
+        
     }
     .container .title h1::after{
         content: "";
@@ -123,11 +148,13 @@
         width: 270px;
         
     }
+
     .content{
         grid-gap: 0px;
         
-        
-    
+    }
+    .line {
+        display: none;
     }
 }
 
@@ -149,7 +176,10 @@
     }
     .content .article{
         padding: 25px 25px;
-     }
+    }
+    .line {
+        display: none;
+    }
 
 }
 @media screen and (min-width: 800px) and (max-width: 950px){
@@ -184,5 +214,13 @@
     .content .article{
         padding: 25px 25px;
      }
+    .line {
+        top: 70px;
+        left: 30px;
+        right: 0;
+        height: 2px;
+        width: 53%;
+        
+    }
     
     }

@@ -27,16 +27,23 @@
   height:100%;
   flex: 1,1,auto;
   padding-top: 3vh;
-  background-color: transparent;
+  background-color: #111;
+  border-top: solid rgb(52, 48, 48) ;
 }
 
 #skill{
   height:100%;
   flex: 1,1,auto;
   padding-top: 3vh;
-  background-color: transparent;
-  
-  
+  background-color: #111;
+  border-top: solid rgb(52, 48, 48);
+}
+#projects{
+  height:100%;
+  flex: 1,1,auto;
+  padding-top: 3vh;
+  background-color: #111;
+  border-top: solid rgb(52, 48, 48);
 }
 @media screen and (min-height: 0px) and (max-height: 400px){
   #skill{
