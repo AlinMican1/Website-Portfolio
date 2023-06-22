@@ -1,6 +1,6 @@
 .App {
   text-align: center;
-  height: 200vh;
+  height: 300vh;
   display:flex;
   flex-direction: column;
   z-index: 1000;
@@ -26,34 +26,56 @@
 #about{
   height:100%;
   flex: 1,1,auto;
-  padding-top: 3vh;
   background-color: #111;
-  border-top: solid rgb(52, 48, 48) ;
+  border-top: solid #2c302e ;
+  
 }
 
 #skill{
   height:100%;
   flex: 1,1,auto;
-  padding-top: 3vh;
+  
   background-color: #111;
-  border-top: solid rgb(52, 48, 48);
+  border-top: solid #2c302e ;
 }
 #projects{
   height:100%;
   flex: 1,1,auto;
-  padding-top: 3vh;
+  
   background-color: #111;
-  border-top: solid rgb(52, 48, 48);
+  border-top: solid #2c302e ;
 }
 @media screen and (min-height: 0px) and (max-height: 400px){
   #skill{
-    padding-top: 25vh;
+    padding-top: 0vh;
     
+    
+  }
+}
+
+@media screen and (min-width: 0px) and (max-width: 400px){
+  .App {
+    text-align: center;
+    height: 500vh;
+  }
+  
+  #skill{
+    padding-bottom: 13vh;
+  }
+}
+
+@media screen and (min-width: 400px) and (max-width: 450px){
+  .App {
+    text-align: center;
+    height: 500vh;
+  }
+  
+  #skill{
+    padding-bottom: 13vh;
   }
 }
 @media screen and (min-height: 400px) and (max-height: 750px){
-  #skill{
-    padding-top: 15vh;
-    
-  }
+  
 }
+
+

@@ -4,30 +4,16 @@ import "react-multi-carousel/lib/styles.css";
 import "./skills.css"
 import { SpeedOmeter } from "../atom/speedOmeter";
 import Reveal from "../atom/animations/reveal";
+import { FaUnity, FaReact, FaNode, Fa} from "react-icons/fa";
+import ReactLogo from "../../../assets/logo192.png";
+import UnityLogo from "../../../assets/unityLogo.png";
+import NodeLogo from "../../../assets/nodejs.png";
+import SciKitLogo from "../../../assets/scikitLogo.png";
+import JavaFxLogo from "../../../assets/javaFx.png";
 
 
 
 export const Skills = () => {
-    /*const{ref,inView} = useInView();
-    const animation = useAnimation();
-    
-  
-    useEffect(() =>{
-        if(inView){
-        
-        animation.start({
-          x: 0,
-          transition:{
-            type:'spring',duration:2,bounce:0
-          }
-        });
-        
-      
-      }
-      if(!inView){
-        animation.start({x:'-100vw'})
-      }
-  },[inView])*/
     
     const responsive = {
         superLargeDesktop: {
@@ -37,7 +23,7 @@ export const Skills = () => {
         },
         desktop: {
           breakpoint: { max: 3000, min: 750 },
-          items: 3,
+          items: 2,
         },
         tablet: {
           breakpoint: { max: 750, min: 464 },
@@ -63,7 +49,68 @@ export const Skills = () => {
                     </h1>
                     
                     
+                        
+                        
                     <div className="skill-box">
+                    <div className="skill-box2">
+                        <h4>
+                          <Reveal>
+                          FrameWork<span>.</span>
+                          </Reveal>
+                          </h4>
+                        <div className="skill-box3">
+                          
+                          <div>  
+                          
+                          <img className="Icons" id="UnityIcon" src={UnityLogo}/>
+                          
+                          </div>
+                          <div>  
+                          
+                            <img className="Icons" id="reactIcon" src={ReactLogo}/>
+                            
+                          </div>
+                          <div>  
+                          
+                          <img className="Icons" id="NodeIcon" src={NodeLogo}/>
+                          
+                          </div>
+                          <div>  
+                          
+                          <img className="Icons" id="SciKitIcon" src={SciKitLogo}/>
+                          
+                          </div>
+                          <div> 
+                          
+                          <img className="Icons" id="JavaFxIcon" src={JavaFxLogo}/>
+                          
+                          </div>
+                          
+                        </div>
+                        <h4>
+                          <Reveal>
+                          Other skills<span>.</span>
+                          </Reveal>
+                          </h4>
+                          
+                        <div className= "skill-box4">
+                          
+                          <p className="chip"> Github </p>
+                          
+                          <p className="chip"> SQL </p>
+                          <p className="chip"> JUnit </p>
+                          <p className="chip"> Figma </p>
+                          <p className="chip"> GraphQL </p>
+                          <p className="chip"> UML </p>
+                          <p className="chip"> Blender </p>
+                          <p className="chip"> Prisma </p>
+                          <p className="chip"> CSS </p>
+                          <p className="chip"> TypeScript </p>
+                          <p className="chip"> SVN </p>
+                          
+                        </div>
+                        
+                      </div>
                         <Reveal>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores nesciunt veniam, est magni 
                             perferendis praesentium dignissimos maxime magnam.</p>
@@ -94,6 +141,7 @@ export const Skills = () => {
                     </div>
                     
                     </Col>
+                    
                 </Row>
 
             </Container>

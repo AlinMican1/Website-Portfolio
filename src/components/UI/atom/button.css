@@ -45,6 +45,18 @@ button.github-project{
     
 }
 
+button.frameWorks{
+  position: relative;
+  left: 45%;
+  top: -7.5%;
+  
+  background-color: transparent;
+  font-size: 28px;
+  color: #ea82af;
+  transition-duration: 250ms;
+  cursor: default;
+}
+
 
 button.github-project:hover{
   transform: scale(1.2);

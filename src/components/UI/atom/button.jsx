@@ -13,7 +13,7 @@ export const Button = ({btnText,btnVariant, onClick, btnIcon}) => {
 
 Button.propTypes = {
   btnText: PropTypes.string,
-  btnVariant: PropTypes.oneOf(['custom-button','custom-button-2', 'icon-black', 'icon-pink']),
+  btnVariant: PropTypes.oneOf(['custom-button','custom-button-2', 'icon-black', 'icon-pink','github-project','frameWorks']),
   btnIcon: any,
   onClick: PropTypes.func,
 };

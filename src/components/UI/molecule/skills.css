@@ -1,28 +1,159 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;700;900&family=Poppins:wght@900&family=Roboto:wght@100;300;400;500;700;900&display=swap');
 .skill{
-    padding: 0 0 50px;
+    
     position: relative;
     font-family: 'Roboto', sans-serif;  
+    width: 100%;
+    min-height: 100vh;
+   
 }
 .skill-box{
-    background: #272a2d;
+    /*background: #272a2d;
     border-radius: 64px;
     text-align:center;
     padding: 60px 50px;
-    width: min(100vw, 85%);
+    width: min(50vw, 100%);
     margin: auto;
+    margin-left: 7.5%;
+    margin-top: 1%;*/
+    background-color: rgb(47, 52, 50);
+    width: 88%;
+    float: left;
+    height: 60vh;
+    margin-left: 5%;
+    border-radius: 64px;
+    text-align:center;
+    padding: 20px 50px;
+    
     
 }
 
+/*.skill-box2{*/
+    /*background: #373a3d;
+    border-radius: 64px;
+    text-align: center;
+    padding: 60px 50px;
+    width: min(30vw, 100%);
+    height: 500px;
+    margin: auto;
+    margin-left: 2%;
+    margin-top: 1%;
+    float:right;
+    margin-right: 7%*/
+    /*border-radius: 64px;
+    text-align:center;
+    padding: 10px 40px;
+    background-color: rgb(33, 32, 31);
+    width: 35%;
+    float: right;
+    height: 50vh;
+    margin-right: 7%;
+}*/
+
+.skill-box2{
+    /*background: #373a3d;
+    border-radius: 64px;
+    text-align: center;
+    padding: 60px 50px;
+    width: min(30vw, 100%);
+    height: 500px;
+    margin: auto;
+    margin-left: 2%;
+    margin-top: 1%;
+    float:right;
+    margin-right: 7%*/
+    border-radius: 64px;
+    text-align:center;
+    padding: 0px 30px;
+    background-color: rgba(33, 32, 31, 0);
+    width: 35%;
+    float: right;
+    height: 45vh;
+    margin-right: -3%;
+}
+.skill-box2 h4{
+    padding-bottom: 1rem;
+    text-align: justify;
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    line-height: 1.5em;
+    top: 0.5%;
+    padding-left: 3%;
+    color: white;
+    padding-top: 1%;
+    position: relative;
+    width: 100%;
+}
+.skill span{
+    color: #0aff9d;   
+}
+.skill-box2 .UnityIcon{
+    top:50%
+}
+
+.skill-box2 .frameworks{
+    color: #0aff9d;
+    top: 0%;
+}
+
+.skill-box2 .skill-box3{
+    width: 95%;
+    background-color: #463f3f00;
+    height: 25vh;
+    margin:  auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-content: center;
+    column-gap:0%;
+    grid-auto-rows: auto;
+    align-items: center;
+    
+
+}
+
+.skill-box2 .skill-box3 .Icons{
+    color:#ffffff;
+    width: 100%;  
+    margin-top: -20px;
+    
+    
+}
+#UnityIcon{
+    max-width: 90%;
+    height: auto;
+    width: auto\9;
+  
+    
+}
+#reactIcon{
+    max-width: 65%;
+    height: auto;
+    width: auto\9;
+    
+    
+}
+#NodeIcon{
+    max-width: 80%;
+    height: auto;
+    width: auto\9;
+    
+}
+#SciKitIcon{
+    max-width: 80%;
+    height: auto;
+    width: auto\9;
+    
+    
+}
+#JavaFxIcon{
+    max-width: 60%;
+    height: auto;
+    width: auto\9;
+}
+
 .skill h1{
-    
-    
     font-size: 85px;
-    
     color: #ffffff;
-    letter-spacing: 1.5px;
-    padding: 0px 0px 60px 0px;
-    
     font-family: 'Poppins', sans-serif;
     display: flex;
     align-items: right;
@@ -32,8 +163,33 @@
     padding-left: 0%;
     padding-bottom: 2%;
     padding-right: 7%;
+    padding-top: 5%;
     width: 100%;
 }
+
+.skill-box2 .skill-box4{
+    width: 95%;
+    background-color: #91202000;
+    height: 17vh;
+    margin:  auto;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    justify-content: center;
+    column-gap:2%;
+    grid-auto-rows: 25%;
+    align-items: center;
+    
+}
+.skill-box2 .skill-box4 .chip {
+    font-size: 12px;
+    color:rgb(255, 255, 255);
+    background: #111;
+    padding: 0.2rem 0.8rem;
+    border-radius: 999px;
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+}
+
 .skill span{
     color: #0aff9d;
     
@@ -83,7 +239,9 @@
     
 }
 
-@media screen and (min-width: 0px) and (max-width: 400px){
+
+
+/*@media screen and (min-width: 0px) and (max-width: 400px){
     .skill h1{
         font-size: 50px;
         font-weight: 700;
@@ -367,4 +525,466 @@
         margin: auto;
         
     }
+}
+@media screen and (min-width: 0px) and (max-width: 1300px){
+    .skill-box2, .skill-box {
+        width: 95%;
+        float: none;
+        margin: 2% auto;
+      }
+}*/
+
+@media screen and (min-width: 1105px) and (max-width: 1200px){
+    .skill-box2{
+        width: 50%;
+        float: none;
+        
+      }
+
+    .skill-box2 .skill-box3{
+        width: 195%;
+        background-color: #463f3f00;
+        height: 15vh;
+        margin:  auto;
+        display: grid;
+        align-items: center;
+        grid-template-columns: repeat(5,1fr);
+        justify-content: center;
+        column-gap:0%;
+        margin-left: 10%;
+       
+        
+        
+    
+    }
+    .skill-box{
+        height: 100vh;
+        width:88%;
+    }
+
+    .skill-box2 .skill-box4{
+        background-color: #ffffff;
+        grid-template-columns: repeat(10,1fr);
+        grid-auto-rows: 25%;
+        align-items: center;
+        width: 195%;
+        margin-left: 10%;
+        grid-auto-rows: 50%;
+        height:9vh;
+        
+    
+    }
+}
+@media screen and (min-width: 750px) and (max-width: 1105px){
+    .skill-box2{
+        width: 50%;
+        float: none;
+        
+    }
+    .skill-box2 .skill-box3{
+        width: 195%;
+        background-color: #463f3f00;
+        height: 15vh;
+        margin:  auto;
+        display: grid;
+        align-items: center;
+        grid-template-columns: repeat(5,1fr);
+        justify-content: center;
+        column-gap:0%;
+        margin-left: 10%;
+       
+        
+        
+    
+    }
+    .skill-box{
+        height: 100vh;
+        width:88%;
+    }
+    .skill-box2 .skill-box4{
+        background-color: #ffffff;
+        grid-template-columns: repeat(6,1fr);
+        grid-auto-rows: 25%;
+        align-items: center;
+        width: 195%;
+        margin-left: 10%;
+        grid-auto-rows: 50%;
+        height:9vh;
+        
+    
+    }
+
+}
+
+/*IPHONE SE */
+@media screen and (min-width: 0px) and (max-width: 400px){
+    
+    .skill-box2 h4{
+        padding-bottom: 1rem;
+        
+        align-items: center;
+        font-family: 'Poppins', sans-serif;
+        font-size: 20px;
+        line-height: 1.5em;
+        top: 2%;
+        padding-left: 0%;
+        color: white;
+        padding-top: 1%;
+        width: 40vw;
+    }
+    
+    .skill-box2{
+        width: 60%;
+        float: none;
+        margin-top: -20%;
+        margin-left: -15%;
+        
+    }
+    .skill-box2 .skill-box3{
+        width: 300%;
+        background-color: #39313100;
+        height: 15vh;
+        margin:  auto;
+        display: grid;
+        align-items: center;
+        grid-template-columns: repeat(3,1fr);
+        justify-content: center;
+        column-gap:0%;
+        margin-left: 0%;
+    }
+    .skill-box{
+        height: 100vh;
+        width:88%;
+    }
+    .skill-box2 .skill-box4{
+        
+        grid-template-columns: repeat(3,1fr);
+        grid-auto-rows: 25%;
+        align-items: center;
+        width: 300%;
+        margin-left: 0%;
+        
+        margin-top: -10%;
+        height:19vh;
+        
+    }
+    .skill-box2 .skill-box4 .chip {
+        font-size: 12px;
+        color:rgb(255, 255, 255);
+        background: #111;
+        padding: 0.2rem 0.8rem;
+        border-radius: 999px;
+        font-family: 'Roboto', sans-serif;
+        font-style: italic;
+    }
+
+    .skill h1{
+        font-size: 50px;
+        font-weight: 700;
+        
+    }
+    .skill h1::after{
+        
+        height: 4px;
+        width: 140px;
+       
+    }
+    .skill p{
+        
+        font-size: 14px;
+        letter-spacing: 0.8px;
+        line-height: 1.5em;
+        margin: 14px 0 0px 0;
+        margin-top: 20%;
+    
+    }
+
+    .skill h5{
+        font-size: 20px;
+        font-weight: 400;
+        font-style: italic;
+        
+    }
+    .react-multiple-carousel__arrow--left{
+        border-radius: 15px;
+        z-index: 1000;
+        border: 0;
+        background: rgba(0,0,0,0.5);
+        min-width: 20px;
+        min-height: 20px;
+        opacity: 1;
+        cursor: pointer;
+        left:0vw
+        
+    }
+    .react-multiple-carousel__arrow--right{
+        border-radius: 15px;
+        z-index: 1000;
+        border: 0;
+        background: rgba(0,0,0,0.5);
+        min-width: 20px;
+        min-height: 20px;
+        opacity: 1;
+        cursor: pointer;
+        right:0vw
+    }
+    .skill-box{
+        background: #272a2d;
+        border-radius: 32px;
+        text-align:center;
+        padding: 60px 50px;
+        width: min(100vw, 90%);
+        margin-right: 5%;
+        height: 110vh;
+    }
+    
+}
+
+
+@media screen and (min-width: 400px) and (max-width: 450px){
+    
+    .skill-box2 h4{
+        padding-bottom: 1rem;
+        
+        align-items: center;
+        font-family: 'Poppins', sans-serif;
+        font-size: 20px;
+        line-height: 1.5em;
+        top: 2%;
+        padding-left: 0%;
+        color: white;
+        padding-top: 1%;
+        width: 40vw;
+        margin-top: 10%;
+    }
+    
+    .skill-box2{
+        width: 60%;
+        float: none;
+        margin-top: -20%;
+        margin-left: -15%;
+        
+    }
+    .skill-box2 .skill-box3{
+        width: 300%;
+        background-color: #39313100;
+        height: 15vh;
+        margin:  auto;
+        margin-top: 20%;
+        display: grid;
+        align-items: center;
+        grid-template-columns: repeat(3,1fr);
+        justify-content: center;
+        column-gap:0%;
+        margin-left: 0%;
+    }
+    .skill-box{
+        height: 100vh;
+        width:88%;
+    }
+    .skill-box2 .skill-box4{
+        
+        grid-template-columns: repeat(3,1fr);
+        grid-auto-rows: 25%;
+        align-items: center;
+        width: 300%;
+        margin-left: 0%;
+        
+        margin-top: 0%;
+        height:19vh;
+    }
+    .skill-box2 .skill-box4 .chip {
+        font-size: 12px;
+        color:rgb(255, 255, 255);
+        background: #111;
+        padding: 0.2rem 0.8rem;
+        border-radius: 999px;
+        font-family: 'Roboto', sans-serif;
+        font-style: italic;
+    }
+
+    .skill h1{
+        font-size: 50px;
+        font-weight: 700;
+        
+    }
+    .skill h1::after{
+        
+        height: 4px;
+        width: 140px;
+       
+    }
+    .skill p{
+        
+        font-size: 14px;
+        letter-spacing: 0.8px;
+        line-height: 1.5em;
+        margin: 14px 0 0px 0;
+        margin-top: 25%;
+    
+    }
+
+    .skill h5{
+        font-size: 20px;
+        font-weight: 400;
+        font-style: italic;
+        
+    }
+    .react-multiple-carousel__arrow--left{
+        border-radius: 15px;
+        z-index: 1000;
+        border: 0;
+        background: rgba(0,0,0,0.5);
+        min-width: 20px;
+        min-height: 20px;
+        opacity: 1;
+        cursor: pointer;
+        left:0vw
+        
+    }
+    .react-multiple-carousel__arrow--right{
+        border-radius: 15px;
+        z-index: 1000;
+        border: 0;
+        background: rgba(0,0,0,0.5);
+        min-width: 20px;
+        min-height: 20px;
+        opacity: 1;
+        cursor: pointer;
+        right:0vw
+    }
+    .skill-box{
+        background: #272a2d;
+        border-radius: 32px;
+        text-align:center;
+        padding: 60px 50px;
+        width: min(100vw, 90%);
+        margin-right: 5%;
+        height: 110vh;
+    }
+    
+}
+
+@media screen and (min-width: 450px) and (max-width: 550px){
+    
+    .skill-box2 h4{
+        padding-bottom: 1rem;
+        
+        align-items: center;
+        font-family: 'Poppins', sans-serif;
+        font-size: 20px;
+        line-height: 1.5em;
+        top: 2%;
+        padding-left: 0%;
+        color: white;
+        padding-top: 1%;
+        width: 40vw;
+        margin-top: 10%;
+    }
+    
+    .skill-box2{
+        width: 60%;
+        float: none;
+        margin-top: -20%;
+        margin-left: -15%;
+        
+    }
+    .skill-box2 .skill-box3{
+        width: 300%;
+        background-color: #39313100;
+        height: 15vh;
+        margin:  auto;
+        margin-top: 20%;
+        display: grid;
+        align-items: center;
+        grid-template-columns: repeat(3,1fr);
+        justify-content: center;
+        column-gap:0%;
+        margin-left: 0%;
+    }
+    .skill-box{
+        height: 100vh;
+        width:88%;
+    }
+    .skill-box2 .skill-box4{
+        
+        grid-template-columns: repeat(3,1fr);
+        grid-auto-rows: 25%;
+        align-items: center;
+        width: 300%;
+        margin-left: 0%;
+        
+        margin-top: 0%;
+        height:19vh;
+    }
+    .skill-box2 .skill-box4 .chip {
+        font-size: 12px;
+        color:rgb(255, 255, 255);
+        background: #111;
+        padding: 0.2rem 0.8rem;
+        border-radius: 999px;
+        font-family: 'Roboto', sans-serif;
+        font-style: italic;
+    }
+
+    .skill h1{
+        font-size: 50px;
+        font-weight: 700;
+        
+    }
+    .skill h1::after{
+        
+        height: 4px;
+        width: 140px;
+       
+    }
+    .skill p{
+        
+        font-size: 14px;
+        letter-spacing: 0.8px;
+        line-height: 1.5em;
+        margin: 14px 0 0px 0;
+        margin-top: 25%;
+    
+    }
+
+    .skill h5{
+        font-size: 20px;
+        font-weight: 400;
+        font-style: italic;
+        
+    }
+    .react-multiple-carousel__arrow--left{
+        border-radius: 15px;
+        z-index: 1000;
+        border: 0;
+        background: rgba(0,0,0,0.5);
+        min-width: 20px;
+        min-height: 20px;
+        opacity: 1;
+        cursor: pointer;
+        left:0vw
+        
+    }
+    .react-multiple-carousel__arrow--right{
+        border-radius: 15px;
+        z-index: 1000;
+        border: 0;
+        background: rgba(0,0,0,0.5);
+        min-width: 20px;
+        min-height: 20px;
+        opacity: 1;
+        cursor: pointer;
+        right:0vw
+    }
+    .skill-box{
+        background: #272a2d;
+        border-radius: 32px;
+        text-align:center;
+        padding: 60px 50px;
+        width: min(100vw, 90%);
+        margin-right: 5%;
+        height: 110vh;
+    }
+    
 }
