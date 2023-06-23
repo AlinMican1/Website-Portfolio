@@ -53,60 +53,96 @@ export const Skills = () => {
                         
                     <div className="skill-box">
                     <div className="skill-box2">
-                        <h4>
+                        <h4 id="header-1">
                           <Reveal>
                           FrameWork<span>.</span>
                           </Reveal>
                           </h4>
+                          <Reveal>
                         <div className="skill-box3">
                           
-                          <div>  
+                          <div>
+                          <img src={UnityLogo}/>
+                          </div>
                           
+                          <div>
+                          <img src={ReactLogo}/>
+                          </div>
+                          <div>
+                          <img src={NodeLogo}/>
+                          </div>
+                          <div>
+                          <img src={SciKitLogo}/>
+                          </div>
+                          <div>
+                          <img src={JavaFxLogo}/>
+                          </div>
+                          
+                          {/*
                           <img className="Icons" id="UnityIcon" src={UnityLogo}/>
                           
-                          </div>
-                          <div>  
-                          
-                            <img className="Icons" id="reactIcon" src={ReactLogo}/>
+                          <img className="Icons" id="reactIcon" src={ReactLogo}/>
                             
-                          </div>
-                          <div>  
+                          
+                          
                           
                           <img className="Icons" id="NodeIcon" src={NodeLogo}/>
                           
-                          </div>
-                          <div>  
+                          
+                           
                           
                           <img className="Icons" id="SciKitIcon" src={SciKitLogo}/>
                           
-                          </div>
-                          <div> 
+                        
+                          
                           
                           <img className="Icons" id="JavaFxIcon" src={JavaFxLogo}/>
+    */}
                           
-                          </div>
                           
                         </div>
-                        <h4>
+                        </Reveal>
+                        <h4 id="header-2">
                           <Reveal>
                           Other skills<span>.</span>
                           </Reveal>
                           </h4>
                           
                         <div className= "skill-box4">
-                          
+                          <Reveal>
                           <p className="chip"> Github </p>
-                          
+                          </Reveal>
+                          <Reveal>
                           <p className="chip"> SQL </p>
+                          </Reveal>
+                          <Reveal>
                           <p className="chip"> JUnit </p>
+                          </Reveal>
+                          <Reveal>
                           <p className="chip"> Figma </p>
+                          </Reveal>
+                          <Reveal>
                           <p className="chip"> GraphQL </p>
+                          </Reveal>
+                          <Reveal>
                           <p className="chip"> UML </p>
+                          </Reveal>
+                          <Reveal>
                           <p className="chip"> Blender </p>
+                          </Reveal>
+                          <Reveal>
                           <p className="chip"> Prisma </p>
+                          </Reveal>
+                          <Reveal>
                           <p className="chip"> CSS </p>
+                          </Reveal>
+                          <Reveal>
                           <p className="chip"> TypeScript </p>
+                          </Reveal>
+                          <Reveal>
                           <p className="chip"> SVN </p>
+                          </Reveal>
+                          
                           
                         </div>
                         

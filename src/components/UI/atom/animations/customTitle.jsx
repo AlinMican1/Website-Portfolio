@@ -1,4 +1,4 @@
-import './/customTitle.css';
+import './customTitle.css'
 import React from 'react';
 
 

@@ -6,8 +6,8 @@ import AboutScreen from './components/template/aboutScreen';
 import { useRef } from 'react';
 import smoothscroll from 'smoothscroll-polyfill';
 import { SkillsScreen } from './components/template/skillsScreen';
-import { Project } from './components/UI/molecule/project';
-
+import { ProjectsScreen } from './components/template/projectScreen';
+import Contact from './components/UI/atom/contact';
 smoothscroll.polyfill();
 /*class App extends React.Component {
   render() {
@@ -63,9 +63,15 @@ const App = () =>{
           
       </div>
       <div ref={projectsSection} className="Section" id="projects">
-          <Project />
+          <ProjectsScreen />
           
       </div>
+
+      <div ref={projectsSection} className="Section" id="contact">
+          <Contact />
+          
+      </div>
+      
       
   </div>
   

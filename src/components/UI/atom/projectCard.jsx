@@ -16,15 +16,17 @@ export const ProjectCard = (props) => {
                     {props.title}<span>.</span>
                     </Reveal>
                     </h2>
-                    
+                    <Reveal>
                     <a href={props.view} target="_blank" rel="noopener noreferrer" >
                         
-                        <Button  btnVariant={"github-project"} btnIcon={<FaGithub></FaGithub>} >
+                        <Button  btnVariant={"github-project"} btnIcon={<FaGithub></FaGithub>} />
+                       
                         
-                        </Button>
+                        
                         
                         
                     </a>
+                    </Reveal>
                     
                 <h3 className="project-type">
                     <Reveal>
@@ -41,7 +43,7 @@ export const ProjectCard = (props) => {
                 <div className="pro-btn">
                     
                     <a href={props.view} target="_blank" rel="noopener noreferrer" >
-                    <Reveal>
+                     <Reveal>
                      <button  className="btn">View </button>
                      </Reveal>
                     </a>

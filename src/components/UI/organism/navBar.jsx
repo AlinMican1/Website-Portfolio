@@ -11,9 +11,6 @@ import logo from "../../../assets/logo512.png"
 for responsiveness when the page is too small the user should be allowed 
 to access a drop menu of buttons. */
 
-const handleClick = () => {
-    console.log('hello1');
-  }
 
 export const Navbar = ({aboutRef,homeRef,skillsRef,projectsRef,scroll}) => {
     const [openDropNav, setDropNav] = useState(false);
@@ -42,9 +39,9 @@ export const Navbar = ({aboutRef,homeRef,skillsRef,projectsRef,scroll}) => {
         <ul className="navBarButtons">
             
             <Button btnVariant={'custom-button-2'} btnText={"About."} onClick={() => scroll(aboutRef)}/>
-            
             <Button btnVariant={'custom-button-2'} btnText={"Skills."} onClick={() => scroll(skillsRef)}/>
             <Button btnVariant={'custom-button-2'} btnText={"Projects."} onClick={() => scroll(projectsRef)}/>
+           
         </ul>
         
     </nav>

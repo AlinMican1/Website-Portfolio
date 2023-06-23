@@ -11,9 +11,10 @@
     display:flex;
     justify-content: center;
     align-items: center;
-    height: 25vh;
+    height: 200px;
     width: 10vw;
-    margin: 10px auto;
+    margin: 30px auto;
+    
     
 }
 

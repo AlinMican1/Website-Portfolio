@@ -2,7 +2,6 @@
 
 
 button{
-  
   border: 0;
   cursor: pointer;
   display: inline-block;
@@ -49,7 +48,6 @@ button.frameWorks{
   position: relative;
   left: 45%;
   top: -7.5%;
-  
   background-color: transparent;
   font-size: 28px;
   color: #ea82af;
