@@ -1,6 +1,6 @@
 import React, {useEffect,useRef} from 'react'
 import {motion , useInView, useAnimation} from "framer-motion";
-import PropTypes, { any } from 'prop-types';
+import PropTypes from 'prop-types';
 
 export const Reveal = ({children, width = "fit-content"}) => {
     const ref = useRef(null);
@@ -53,7 +53,7 @@ export const Reveal = ({children, width = "fit-content"}) => {
 }
 
 Reveal.propTypes = {
-    children: PropTypes.element.isRequired,
+    /*children: PropTypes.element.isRequired,*/
     width: PropTypes.oneOf(['fit-content', '100%']),
 };
 export default Reveal

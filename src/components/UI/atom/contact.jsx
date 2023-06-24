@@ -12,10 +12,10 @@ const Contact = () => {
             </Reveal> 
             </h1>
             
-        <p className='paragraph'> <Reveal> Shoot me an email if you want to connect! You can also find me on  <a href="https://www.youtube.com/watch?v=tIUuqZaq_8s" target="_blank" rel="noopener noreferrer" >Linkedin </a>  
+        {/*<p className='paragraph'> <Reveal> Shoot me an email if you want to connect! You can also find me on  <a href="https://www.youtube.com/watch?v=tIUuqZaq_8s" target="_blank" rel="noopener noreferrer" >Linkedin </a>  
             <br /> or  an email if that's more your speed.
             </Reveal>
-            </p>
+  </p>*/}
         <div className='email'>
             <Reveal>
             <FaEnvelope/><p>alinmican2001@gmail.com</p>

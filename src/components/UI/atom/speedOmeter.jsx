@@ -2,7 +2,6 @@ import "./speedOmeter.css";
 import React from "react";
 import { CircularProgressbar, buildStyles } from 'react-circular-progressbar';
 import 'react-circular-progressbar/dist/styles.css';
-import Reveal from "./animations/reveal";
 
 export const SpeedOmeter = ({percent}) => {
         

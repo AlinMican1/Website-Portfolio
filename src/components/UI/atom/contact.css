@@ -16,17 +16,12 @@
     margin-top: 10%;
     text-align: center;
     
-    
-}
-.container-box h1 span{
-    color: #0aff9d;
-    
 }
 
 .container-box p{
-    font-size: 20px;
     text-align: center;
-   
+    
+    
     
 }
 .container-box p a{
@@ -43,6 +38,8 @@
     font-size: 50px;
     color: white;
     margin-top: 3%;
+    display: flex;
+    justify-content: center;
 
 }
 
@@ -50,4 +47,16 @@
     font-size: 29px;
     font-family: 'Poppins' sans-serif;
     margin-top: -10px;
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (min-width: 0px) and (max-width: 500px){
+  .container-box .email p{
+    font-size: 22px;
+    
+}
+.container-box .email {
+    font-size: 40px;
+}
 }

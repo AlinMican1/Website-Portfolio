@@ -4,7 +4,6 @@ import "react-multi-carousel/lib/styles.css";
 import "./skills.css"
 import { SpeedOmeter } from "../atom/speedOmeter";
 import Reveal from "../atom/animations/reveal";
-import { FaUnity, FaReact, FaNode, Fa} from "react-icons/fa";
 import ReactLogo from "../../../assets/logo192.png";
 import UnityLogo from "../../../assets/unityLogo.png";
 import NodeLogo from "../../../assets/nodejs.png";
@@ -21,12 +20,16 @@ export const Skills = () => {
           breakpoint: { max: 4000, min: 3000 },
           items: 5
         },
+        interval:{
+          breakpoint: { max: 1200, min: 1000 },
+          items: 1,
+        },
         desktop: {
-          breakpoint: { max: 3000, min: 750 },
+          breakpoint: { max: 3000, min: 1200 },
           items: 2,
         },
         tablet: {
-          breakpoint: { max: 750, min: 464 },
+          breakpoint: { max: 1000, min: 464 },
           items: 1
         },
         mobile: {
@@ -46,11 +49,9 @@ export const Skills = () => {
                     <Reveal>
                         Skills<span>.</span>
                         </Reveal>
+                        
                     </h1>
                     
-                    
-                        
-                        
                     <div className="skill-box">
                     <div className="skill-box2">
                         <h4 id="header-1">
@@ -102,12 +103,14 @@ export const Skills = () => {
                           
                         </div>
                         </Reveal>
+                        
                         <h4 id="header-2">
                           <Reveal>
                           Other skills<span>.</span>
                           </Reveal>
                           </h4>
-                          
+                         
+                         
                         <div className= "skill-box4">
                           <Reveal>
                           <p className="chip"> Github </p>
@@ -145,10 +148,11 @@ export const Skills = () => {
                           
                           
                         </div>
+                      
                         
                       </div>
                         <Reveal>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores nesciunt veniam, est magni 
+                        <p className="skill-paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores nesciunt veniam, est magni 
                             perferendis praesentium dignissimos maxime magnam.</p>
                         </Reveal>
                         

@@ -37,6 +37,7 @@ const App = () =>{
   const homeSection = useRef(null);
   const skillsSection = useRef(null);
   const projectsSection = useRef(null);
+  const contactSection = useRef(null);
 
   const scrollToSection = (elementRef) => {
     window.scrollTo({
@@ -53,11 +54,12 @@ const App = () =>{
         <ParticlesBackground />
       </div>
       <div ref={homeSection} className = "Section" id='home'>
-          <HomeScreen aboutRef={aboutSection} homeRef={homeSection} skillsRef={skillsSection}  projectsRef={projectsSection } scroll={scrollToSection}/>
+          <HomeScreen aboutRef={aboutSection} homeRef={homeSection} skillsRef={skillsSection}  projectsRef={projectsSection }  contactRef = {contactSection} scroll={scrollToSection}/>
       </div>
       <div ref={aboutSection} className = "Section" id='about'>
          <AboutScreen/>
       </div>
+      
       <div ref={skillsSection} className="Section" id="skill">
           <SkillsScreen />
           
@@ -67,10 +69,10 @@ const App = () =>{
           
       </div>
 
-      <div ref={projectsSection} className="Section" id="contact">
+      <div ref={contactSection} className="Section" id="contact">
           <Contact />
           
-      </div>
+  </div>
       
       
   </div>

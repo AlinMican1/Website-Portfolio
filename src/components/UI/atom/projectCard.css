@@ -8,10 +8,11 @@
 }
 
 .project-container{
-    max-width: 84%;
+    max-width: 85%;
     margin:auto;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    margin-left: 8%;
     grid-gap: 40px;
     padding-bottom: 5rem;
 }
@@ -19,9 +20,9 @@
 .project-card{
     background: #232323;
     padding: 1.2rem 1rem;
-    border-radius: 20px;
+    border-radius: 32px;
     overflow: hidden;
-    border: 5px solid #404442;
+    border: 3px solid #404442;
 }
 
 .project-card img{
@@ -48,25 +49,32 @@
 .project-title{
     color: rgb(255, 255, 255);    
     padding: 1rem 0;
-    text-align: left;
     font-family: 'Poppins', sans-serif;
     letter-spacing: 0.5px;
+    display: flex;
+    flex-direction: row;     
+    justify-content: left;
+    align-items: center;
+
 }
-.project-title span{
-    color: #0aff9d;
-    font-family: 'Poppins', sans-serif;
+
+.project-title a{
+    margin-left: auto;
 }
+
 .project-type{
     padding-bottom: 1rem;
     text-align: justify;
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
     line-height: 1.5em;
-    top: -5%;
+    top: -1.5%;
     color: #0aff9d;
     padding-top: 1%;
     position: relative;
 }
+
+
 
 .pro-details{
     padding-bottom: 1rem;
@@ -78,6 +86,17 @@
     color: #ffffff;
     position: relative;
     top: -3%;
+}
+
+.pro-details a{
+    color: #0aff9d;
+    text-decoration-line: none;
+    
+}
+
+.pro-details a:hover{
+    text-decoration-line:underline;
+    
 }
 .pro-btn{
     display: flex;

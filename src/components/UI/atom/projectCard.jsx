@@ -1,5 +1,4 @@
 import "./projectCard.css"
-import { NavLink } from "react-router-dom";
 import { FaGithub } from "react-icons/fa";
 import Button from "./button";
 import Reveal from "./animations/reveal";
@@ -15,18 +14,16 @@ export const ProjectCard = (props) => {
                     <Reveal>
                     {props.title}<span>.</span>
                     </Reveal>
-                    </h2>
-                    <Reveal>
+                    
                     <a href={props.view} target="_blank" rel="noopener noreferrer" >
-                        
+                    <Reveal>
                         <Button  btnVariant={"github-project"} btnIcon={<FaGithub></FaGithub>} />
-                       
-                        
-                        
-                        
-                        
-                    </a>
-                    </Reveal>
+                        </Reveal>     
+                    </a>                    
+                    </h2>
+                    
+                    
+                    
                     
                 <h3 className="project-type">
                     <Reveal>
@@ -35,19 +32,15 @@ export const ProjectCard = (props) => {
                     </h3>
                 
                 <div className="pro-details">
+                    <Reveal>
                     <p>
-                        <Reveal>
+                        
                         {props.text}
-                        </Reveal>
-                        </p>
-                <div className="pro-btn">
-                    
-                    <a href={props.view} target="_blank" rel="noopener noreferrer" >
-                     <Reveal>
-                     <button  className="btn">View </button>
-                     </Reveal>
-                    </a>
-                </div>
+                        <br/>
+                        <a href={props.view} target="_blank" rel="noopener noreferrer" >Learn more <span>&gt;</span></a>
+                    </p>
+                    </Reveal>
+                
             </div>
         </div>
             
