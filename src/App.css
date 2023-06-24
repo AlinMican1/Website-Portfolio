@@ -1,6 +1,6 @@
 .App {
   text-align: center;
-  height: 200vh;
+  
   display:flex;
   flex-direction: column;
   z-index: 1000;
@@ -12,41 +12,50 @@
 
 /*colour for text #d7b94c */
 .Section{
-  min-height: 100vh;
+  min-height: 100px;
   
 }
 
 #home{
   background-color: transparent;
   flex: 1,1,auto;
-  height:100%;
-  
+  min-height: 100vh;
 }
 
 #about{
-  height:100%;
+  min-height: 100vh;
   flex: 1,1,auto;
-  padding-top: 3vh;
-  background-color: transparent;
+  background-color: #111;
+  border-top: solid #2c302e ;
+  padding-bottom: 2vh;
 }
 
 #skill{
-  height:100%;
+  min-height: 100vh;
   flex: 1,1,auto;
-  padding-top: 3vh;
-  background-color: transparent;
   
+  background-color: #111;
+  border-top: solid #2c302e ;
+  padding-bottom: 2vh;
+}
+#projects{
+  min-height: 100vh;
+  flex: 1,1,auto;
   
+  background-color: #111;
+  border-top: solid #2c302e ;
+  padding-bottom: 2vh;
 }
-@media screen and (min-height: 0px) and (max-height: 400px){
-  #skill{
-    padding-top: 25vh;
-    
-  }
+
+#contact{
+  min-height: 100vh;
+  flex: 1,1,auto;
+  
+  background-color: #111;
+  border-top: solid #2c302e ;
 }
-@media screen and (min-height: 400px) and (max-height: 750px){
-  #skill{
-    padding-top: 15vh;
-    
-  }
-}
+
+
+
+
+

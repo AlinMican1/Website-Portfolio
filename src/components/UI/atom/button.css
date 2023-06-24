@@ -1,56 +1,7 @@
-/*
-
-button.pink{
-  background-color: rgb(236, 9, 179);
-}
-button.blue{
-  background-color: blue;
-}
-button.black{
-  background-color: black;
-
-}
-button.white{
-  background-color: rgb(255, 255, 255);
-}
-*/
-/*body {
-  background: #000;
-  color: #fff;
-}
-h1 {
-  position: relative;
-  text-align: center;
-  font-size: 50px;
-  font-family: 'Megrim', cursive;
-  text-shadow: 
-        0 0 5px #0bf4f3,
-        0 0 10px #0bf4f3,
-        0 0 20px #0bf4f3,
-        0 0 40px #0bf4f3,
-        0 0 80px #0bf4f3;
-}
-p {
-  font-family: 'Pompiere', cursive;
-  font-weight: 300;
-  text-align: center;
-  font-size: 20px;
-  color: #fff;
-}
-.frame {
-  width: 90%;
-  margin: 40px auto;
-  text-align: center;
-}
-button {
-  margin: 20px;
-}*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;700;900&family=Poppins:wght@900&family=Roboto:wght@100;300;400;500;700;900&display=swap');
 
 
 button{
-  /*font-family: 'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  font-weight: 700;
-  border-radius: 3em;*/
   border: 0;
   cursor: pointer;
   display: inline-block;
@@ -59,9 +10,17 @@ button{
 
 button.icon-pink{
   color: rgb(235, 120, 193);
-  background: linear-gradient(to right, #191b1d 30%, #151d21 70%);
+  background: #080808;
   
 }
+
+button.icon-white{
+  color: rgb(255, 255, 255);
+  background: transparent;
+  font-size: 20px;
+}
+
+
 button.icon-black{
   background-color: rgb(255, 255, 255);
   color: rgb(0, 0, 0);
@@ -81,15 +40,29 @@ button.icon-black:hover{
 	box-sizing: border-box;
 }
 
-/*body {
-	height: 100vh;
-	overflow: hidden;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	background-color: #2b1331;
-	background-image: linear-gradient(315deg, #2b1331 0%, #b9abcf 74%);
-}*/
+button.github-project{
+  background-color: transparent;
+  font-size: 28px;
+  color: #c0bdbe;
+  
+}
+
+button.frameWorks{
+  position: relative;
+  left: 45%;
+  top: -7.5%;
+  background-color: transparent;
+  font-size: 28px;
+  color: #ea82af;
+  transition-duration: 250ms;
+  cursor: default;
+}
+
+
+button.github-project:hover{
+  color: #ffffff;
+  
+}
 
 .noselect {
   -webkit-touch-callout: none;
@@ -118,6 +91,7 @@ button.icon-black:hover{
 	transition: 0.5s;
 }
 
+
 .custom-button:hover {
 	background-position: left;
 	color: white;
@@ -127,6 +101,122 @@ button.icon-black:hover{
 .custom-button:focus {
 	outline: none;
 }
+
+.custom-button-2{
+  background-color: transparent;
+  width: 120px;
+	height: 100%;
+  color: white;
+  font-size: 20px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 900;
+  letter-spacing: 0.1rem;
+  opacity: 0.5;
+  
+  
+}
+
+.custom-button-2:hover{
+  background-color: #202121;
+  opacity: 1;
+  border-top: solid thin #0aff9d;
+}
+
+.custom-button-3 {
+  position: relative;
+  height: 45px;
+  width: 150px;
+  margin: 10px 7px;
+  padding: 5px 5px;
+  font-size: 18px;
+  letter-spacing: 1px;
+  color: #0aff9d;
+  font-family: 'Poppins', sans-serif;
+  border: 2px #0aff9d solid;
+  border-radius: 4px;
+  
+  outline: 0;
+  overflow:hidden;
+  background: none;
+  z-index: 1;
+  cursor: pointer;
+  transition:         0.08s ease-in;
+  -o-transition:      0.08s ease-in;
+  -ms-transition:     0.08s ease-in;
+  -moz-transition:    0.08s ease-in;
+  -webkit-transition: 0.08s ease-in;
+}
+
+.custom-button-3:hover {
+  color: rgb(0, 0, 0);
+}
+
+.custom-button-3:before {
+  content: "";
+  position: absolute;
+  background: #0aff9d;
+  
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 100%;
+  z-index: -1;
+  -webkit-transition: top 0.09s ease-in;
+}
+
+.custom-button-3:hover:before {
+  top: 0;
+}
+
+
+@media screen and (min-width: 1650px) and (max-width: 1750px){
+  button.github-project{
+    
+    top: -8%;
+  }
+}
+@media screen and (min-width: 1600px) and (max-width: 1650px){
+  button.github-project{
+    
+    top: -8%;
+  }
+}
+
+@media screen and (min-width: 1500px) and (max-width: 1600px){
+  button.github-project{
+    
+    top: -8%;
+  }
+}
+
+@media screen and (min-width: 1500px) and (max-width: 1600px){
+  button.github-project{
+    
+    top: -8%;
+  }
+}
+
+@media screen and (min-width: 1400px) and (max-width: 1500px){
+  button.github-project{
+    
+    top: -8.3%;
+  }
+}
+
+@media screen and (min-width: 900px) and (max-width: 1000px){
+  button.github-project{
+    
+    top: -8.3%;
+  }
+}
+
+@media screen and (min-width: 800px) and (max-width: 900px){
+  button.github-project{
+    
+    top: -9%;
+  }
+}
+
 
 
 

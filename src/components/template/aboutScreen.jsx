@@ -1,9 +1,10 @@
-import { AboutMe } from "../UI/atom/aboutMe";
+import { AboutMe } from "../UI/molecule/aboutMe";
+
 export const AboutScreen = () => {
     return (
         <div>
             <AboutMe />
-
+            
         </div>
     
   )

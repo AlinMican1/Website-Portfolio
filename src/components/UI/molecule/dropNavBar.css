@@ -10,17 +10,16 @@
 .dropNavBar-dropdown{
     position:relative;
     
-    
 }
 
 .dropNavBar-menu{
     position: absolute;
-    left: -600%;
-    top: calc(100% + .55rem);
+    left: -800%;
+    top: calc(100% + .10rem);
     border-radius: 10px;
-    background: linear-gradient(to right, #1d242b 30%, #12262e 70%);
+    background: #080808;
     padding: 1.5rem;
-    box-shadow: rgba(22, 36, 41, 0.56) 0px 22px 70px 4px;   
+    
     display: grid;
     grid-gap: 20px;
     

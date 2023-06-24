@@ -6,7 +6,8 @@ import AboutScreen from './components/template/aboutScreen';
 import { useRef } from 'react';
 import smoothscroll from 'smoothscroll-polyfill';
 import { SkillsScreen } from './components/template/skillsScreen';
-
+import { ProjectsScreen } from './components/template/projectScreen';
+import Contact from './components/UI/atom/contact';
 smoothscroll.polyfill();
 /*class App extends React.Component {
   render() {
@@ -33,8 +34,10 @@ smoothscroll.polyfill();
 
 const App = () =>{
   const aboutSection = useRef(null);
-  const homeSection = useRef(null)
-  const skillsRef = useRef(null)
+  const homeSection = useRef(null);
+  const skillsSection = useRef(null);
+  const projectsSection = useRef(null);
+  const contactSection = useRef(null);
 
   const scrollToSection = (elementRef) => {
     window.scrollTo({
@@ -51,15 +54,29 @@ const App = () =>{
         <ParticlesBackground />
       </div>
       <div ref={homeSection} className = "Section" id='home'>
-          <HomeScreen aboutRef={aboutSection} homeRef={homeSection} skillsRef={skillsRef} scroll={scrollToSection}/>
+          <HomeScreen aboutRef={aboutSection} homeRef={homeSection} skillsRef={skillsSection}  projectsRef={projectsSection }  contactRef = {contactSection} scroll={scrollToSection}/>
       </div>
       <div ref={aboutSection} className = "Section" id='about'>
          <AboutScreen/>
       </div>
-      <div ref={skillsRef} className="Section" id="skill">
+      
+      <div ref={skillsSection} className="Section" id="skill">
           <SkillsScreen />
+          
       </div>
+      <div ref={projectsSection} className="Section" id="projects">
+          <ProjectsScreen />
+          
+      </div>
+
+      <div ref={contactSection} className="Section" id="contact">
+          <Contact />
+          
   </div>
+      
+      
+  </div>
+  
     
   );
 };
