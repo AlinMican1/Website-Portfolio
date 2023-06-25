@@ -28,10 +28,16 @@
 .project-card img{
     width: 85%;
     transition-duration: 500ms;
+    aspect-ratio: 3/2;
+    
+    
+    /*aspect-ratio: 16/13;*/
+    border-radius: 5px;
+    
     
 }
 .project-card img:hover{
-    transform: scale(1.2) rotate(-10deg);
+    transform: scale(1.1) rotate(-2deg);
     transition-duration: 500ms;
     
 }
@@ -55,6 +61,7 @@
     flex-direction: row;     
     justify-content: left;
     align-items: center;
+    margin-top: 40px;
 
 }
 
