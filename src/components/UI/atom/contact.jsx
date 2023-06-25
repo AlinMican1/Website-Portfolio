@@ -13,7 +13,7 @@ const Contact = () => {
             </h1>
             
         <div className='paragraph'> <Reveal> Shoot me an email if you want to connect! You can also find me on  <a href="https://www.linkedin.com/in/alinmican" target="_blank" rel="noopener noreferrer" >Linkedin </a>  
-            <br /> or  an email if that's more your speed.
+            <br /> or enjoy browsing the portfolio ;) .
             </Reveal>
         </div>
         <div className='email'>
