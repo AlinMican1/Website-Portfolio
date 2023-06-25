@@ -17,7 +17,7 @@ export const ProjectCard = (props) => {
                     
                     <a href={props.view} target="_blank" rel="noopener noreferrer" >
                     <Reveal>
-                        <Button  btnVariant={"github-project"} btnIcon={<FaGithub></FaGithub>} />
+                        <Button  btnVariant={"links-site"} btnIcon={<FaGithub></FaGithub>} />
                         </Reveal>     
                     </a>                    
                     </h2>

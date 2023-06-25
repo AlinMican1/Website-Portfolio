@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;700;900&family=Poppins:wght@900&family=Roboto:wght@100;300;400;500;700;900&display=swap');
 
 .container-box{
-    
     width: min(100vw, 100%);
     float: center;
     background-color: rgba(47, 52, 50, 0);
@@ -18,18 +17,20 @@
     
 }
 
-.container-box p{
+.container-box .paragraph{
+    margin-top: 20px;
+    font-size: 18px;
+    line-height: 1.5em;
+    color: #ffffff;
     text-align: center;
-    
-    
-    
+    font-family: 'Montserrat', sans-serif;
 }
-.container-box p a{
+.container-box .paragraph a{
     color: #0aff9d;
     text-decoration-line: none;
 }
 
-.container-box p a:hover{
+.container-box .paragraph a:hover{
     text-decoration-line:underline;
     
 }

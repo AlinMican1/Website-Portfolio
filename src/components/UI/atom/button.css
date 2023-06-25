@@ -64,6 +64,20 @@ button.github-project:hover{
   
 }
 
+button.links-site{
+  background-color: transparent;
+  font-size: 28px;
+  color: #c0bdbe;
+  
+}
+
+button.links-site:hover{
+  background-color: transparent;
+  font-size: 28px;
+  color:#0aff9d;
+  
+}
+
 .noselect {
   -webkit-touch-callout: none;
     -webkit-user-select: none;

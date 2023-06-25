@@ -30,26 +30,46 @@ export const AboutMe = () => {
         <div className='article'>
         <Reveal>
           
-          <h2>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Libero voluptatem obcaecati et</h2>
+          <h2>“He who conquers himself is the mightiest warrior.” - Confucius </h2>
           </Reveal>
           <Reveal>
-          <p>I'm Bob, if you haven't already gathered that by now. I'm a painter turned software engineer from Daytona, Florida. I specialize in the backend, primarily Node and Rust, but love building with whatever tools are right for the job.
-            I currently work for Google on Google Photos. I also toss in my ¢2 with the design systems teams from time to time (once an artist, always an artist, amirite?).<br/>
-            Outside of work, I still love to paint. Any given Sunday you'll find me scribbling some happy clouds with my son ☁️ I even teach courses online if you're looking to learn!
-            I'm passively looking for new positions where I can merge my love for code with my love for the canvas. If you think you've got an opening that I might like, let's connect</p>
+          <p>
+            Hello and welcome to my personal website! I'm Alin, a recent Computer Science graduate who's incredibly passionate about 
+            technology and its limitless possibilities. I'm excited to share my journey, experiences, and knowledge with you, working 
+            with different technologies to aid me in developing websites, games and softwares.
+          </p>
           </Reveal>
+          <Reveal>
+          <p>
+            During my leisure, I indulge in the creation of video game simulations, stemming from a childhood passion for gaming. Presently, 
+            I harness my expertise to craft and experiment with diverse game mechanics in Unity simulations. 
+            I have acquired vital insights into efficient game development techniques which 
+            include leveraging occlusion culling, object pooling, and de-spawning mechanisms to optimize memory utilization. 
+            Additionally, I have recognized the paramount significance of time/space complexity algorithms in achieving streamlined performance.
+             
+          </p>
+
+          <p>
+          My recent passion lies in crafting websites, seamlessly integrating frontend and backend components with diverse APIs. 
+          This enables the development of robust and feature-rich websites. Furthermore, my exploration of machine 
+          learning has revealed its potential to revolutionize our daily lives, 
+          providing intriguing insights into the transformative impact of intelligent machines.
+        
+          </p>
+          </Reveal>
+          
           
           <div>
             <span className='links'> <Reveal>My Links <span>&gt;</span>  </Reveal>
               <span className='links-container'>
                 <a href="https://github.com/AlinMican1" target="_blank" rel="noopener noreferrer" >
                   <Reveal>
-                <Button btnVariant={'github-project'} btnIcon={<FaGithub></FaGithub>}  />
+                <Button btnVariant={'links-site'} btnIcon={<FaGithub></FaGithub>}  />
                 </Reveal>
                 </a>
                 <a href="https://www.linkedin.com/in/alinmican" target="_blank" rel="noopener noreferrer" >
                 <Reveal>
-                <Button btnVariant={'github-project'} btnIcon={<FaLinkedin></FaLinkedin>} />
+                <Button btnVariant={'links-site'} btnIcon={<FaLinkedin></FaLinkedin>} />
                 </Reveal>
                 </a>
                 

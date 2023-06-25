@@ -39,7 +39,7 @@ html{
 h2{
   color: #0aff9d;
   font-size: 23px;
-  line-height: 22px;
+  line-height: 25px;
   letter-spacing: 1px; 
   font-family: 'Montserrat', sans-serif; 
   text-align: left;
@@ -55,7 +55,7 @@ h5{
 
 p{
     margin-top: 20px;
-    font-size: 20px;
+    font-size: 18px;
     line-height: 1.5em;
     color: #ffffff;
     text-align: left;

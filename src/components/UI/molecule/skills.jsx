@@ -137,14 +137,21 @@ export const Skills = () => {
                           <p className="chip"> Prisma </p>
                           </Reveal>
                           <Reveal>
-                          <p className="chip"> CSS </p>
-                          </Reveal>
-                          <Reveal>
                           <p className="chip"> TypeScript </p>
                           </Reveal>
                           <Reveal>
-                          <p className="chip"> SVN </p>
+                          <p className="chip"> Googling </p>
                           </Reveal>
+                          <Reveal>
+                          <p className="chip"> Flowchart </p>
+                          </Reveal>
+                          <Reveal>
+                          <p className="chip"> StoryBook </p>
+                          </Reveal>
+                          <Reveal>
+                          <p className="chip"> Postman </p>
+                          </Reveal>
+
                           
                           
                         </div>
@@ -152,30 +159,39 @@ export const Skills = () => {
                         
                       </div>
                         <Reveal>
-                        <p className="skill-paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores nesciunt veniam, est magni 
-                            perferendis praesentium dignissimos maxime magnam.</p>
+                        <p className="skill-paragraph">Throughout my computer science journey, I have acquired a diverse range of skills, 
+                        equipping me to contribute effectively to future projects.</p>
                         </Reveal>
                         
                         <Carousel responsive={responsive} infinite={true} className="skills-slider">
                             
                             <div className="item">
                                 
-                                <SpeedOmeter percent={25} />
-                                <h5>Web Development</h5>
+                                <SpeedOmeter percent={90} />
+                                <h5>HTML</h5>
                             </div>
                             
                             <div className="item">
-                                <SpeedOmeter percent={65} />
-                                <h5>Web Development</h5>
+                                <SpeedOmeter percent={80} />
+                                <h5>Python</h5>
                             </div>
                             <div className="item">
-                                <SpeedOmeter percent={35}/>
-                                <h5>Web Development</h5>
+                                <SpeedOmeter percent={75}/>
+                                <h5>Java</h5>
                             </div>
                             <div className="item">
-                                <SpeedOmeter percent={85} />
-                                <h5>Web Development</h5>
+                                <SpeedOmeter percent={90} />
+                                <h5>CSS</h5>
                             </div>
+                            <div className="item">
+                                <SpeedOmeter percent={80} />
+                                <h5>Unity C#</h5>
+                            </div>
+                            <div className="item">
+                                <SpeedOmeter percent={70} />
+                                <h5>JavaScript</h5>
+                            </div>
+                            
                         </Carousel>
                         
                     </div>
