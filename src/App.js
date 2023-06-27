@@ -54,6 +54,7 @@ const App = () =>{
         <ParticlesBackground />
       </div>
       <div ref={homeSection} className = "Section" id='home'>
+        
           <HomeScreen aboutRef={aboutSection} homeRef={homeSection} skillsRef={skillsSection}  projectsRef={projectsSection }  contactRef = {contactSection} scroll={scrollToSection}/>
       </div>
       <div ref={aboutSection} className = "Section" id='about'>

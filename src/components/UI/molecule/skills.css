@@ -117,8 +117,57 @@
     width:80%;
     margin: 0 auto 15px auto;
 }
+@media screen and (min-width: 330px) and (max-width: 400px){
+    
+    .react-multiple-carousel__arrow--left{
+        border-radius: 15px;
+        z-index: 1000;
+        border: 0;
+        background: transparent;
+        min-width: 20px;
+        min-height: 20px;
+        opacity: 1;
+        cursor: pointer;
+        left:0vw
+        
+    }
+    .react-multiple-carousel__arrow--right{
+        border-radius: 50px;
+        z-index: 1000;
+        border: 0;
+        background: transparent;
+        min-width: 20px;
+        min-height: 20px;
+        opacity: 1;
+        cursor: pointer;
+        right:0vw
+    }
+    .skill-box{
+        height: 950px;
+        padding: 20px 20px;
+    }
+    
+    .skill-box2 {
+        width: 100%;
+        float: none;
+        margin: auto;
+        height: 500px;;
+    }
 
-@media screen and (min-width: 0px) and (max-width: 500px){
+    .react-multi-carousel-list {
+        margin-top: 0px;
+    }
+
+    .skill-paragraph{
+       
+       text-align: left;
+       padding-top: 20px;
+         
+    }
+   
+}
+
+@media screen and (min-width: 400px) and (max-width: 500px){
     
     .react-multiple-carousel__arrow--left{
         border-radius: 15px;

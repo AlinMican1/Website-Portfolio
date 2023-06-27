@@ -13,6 +13,7 @@
 /*colour for text #d7b94c */
 .Section{
   min-height: 100px;
+  min-width: 100px;
   
 }
 
@@ -20,6 +21,7 @@
   background-color: transparent;
   flex: 1,1,auto;
   min-height: 100vh;
+  
 }
 
 #about{

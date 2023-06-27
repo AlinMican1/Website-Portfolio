@@ -143,7 +143,7 @@ export const Skills = () => {
                           <p className="chip"> Googling </p>
                           </Reveal>
                           <Reveal>
-                          <p className="chip"> Flowchart </p>
+                          <p className="chip"> VsCode </p>
                           </Reveal>
                           <Reveal>
                           <p className="chip"> StoryBook </p>

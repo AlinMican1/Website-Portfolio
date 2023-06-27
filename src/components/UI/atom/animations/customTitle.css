@@ -123,7 +123,91 @@
     }
 }
 
-@media screen and (min-width: 0px) and (max-width: 400px){
+@media screen and (min-width: 0px) and (max-width: 350px){
+    
+    .class2{
+        left:6vw;
+        top:25vh;
+        
+    }
+    .button-text{
+        font-size: 55px;
+    }
+    #L2{
+        top:0px;
+        left:35px;
+        position: absolute;
+    }
+    #L3{
+        top:70px;
+        left:0px;
+        position: absolute;
+    }
+    #L4{
+        top:70px;
+        left:42px;
+        position: absolute;
+    }
+    #L5{
+        top:70px;
+        left:75px;
+        position: absolute;
+    }
+    #L6{
+        top:70px;
+        left:100px;
+        position: absolute;
+    }
+    #L7{
+        top:70px;
+        left:126px;
+        position: absolute;
+    }
+    #L8{
+        top:70px;
+        left:168px;
+        position: absolute;
+    }
+    #L9{
+        top:70px;
+        left:210px;
+        position: absolute;
+    }
+    
+    #L10{
+        top:70px;
+        left:217px;
+        position: absolute;
+    }
+    
+    #L11{
+        top:155px;
+        left:0px;
+        position: absolute;
+    }
+    
+    #L12{
+        top:155px;
+        left:32px;
+        position: absolute;
+    }
+    
+    #L13{
+        top:155px;
+        left:40px;
+        position: absolute;
+    }
+    
+    #L14{
+        top:155px;
+        left:48px;
+        position: absolute;
+    }
+        
+}
+
+
+@media screen and (min-width: 350px) and (max-width: 400px){
     .class2{
         left:6vw;
         top:25vh;
