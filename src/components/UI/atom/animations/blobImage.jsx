@@ -1,5 +1,5 @@
 import React from 'react'
-import Suitpic from '../../../../assets/suitPicNoBackground.png'
+import Suitpic from '../../../../assets/newSuitPic.png'
 import './blobImage.css'
 
 const BlobImage = () => {

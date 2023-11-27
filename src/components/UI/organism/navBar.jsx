@@ -26,6 +26,7 @@ export const Navbar = ({aboutRef,homeRef,skillsRef,projectsRef,contactRef,scroll
     },[width])
 
     return ( 
+        
     <nav className="navBarStyle">
         
         <div className="logoContainer">

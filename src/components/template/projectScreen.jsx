@@ -7,6 +7,6 @@ export const ProjectsScreen = () => {
         </div>
     
   )
-  };
+};
 
 export default ProjectsScreen;

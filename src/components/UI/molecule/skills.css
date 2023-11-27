@@ -591,4 +591,50 @@
 }
 
 
+@media screen and (min-width: 2260px) and (max-width: 2735px){
+    
+    
+    .skill-box{
+        height: 700px;
+        /* padding: 20px 20px; */
+    }
+    
+    .skill-box2 {
+       
+        height: 630px;;
+    }
 
+   
+
+    .skill-paragraph{
+       
+       text-align: left;
+       padding-top: 20px;
+   
+    } 
+
+}
+
+@media screen and (min-width: 2735px) and (max-width: 3140px){
+    
+    
+    .skill-box{
+        height: 750px;
+        /* padding: 20px 20px; */
+    }
+    
+    .skill-box2 {
+       
+        height: 700px;;
+    }
+
+   
+
+    .skill-paragraph{
+       
+       text-align: left;
+       padding-top: 20px;
+   
+    } 
+
+}

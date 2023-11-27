@@ -4,7 +4,8 @@ import Button from "./button";
 import Reveal from "./animations/reveal";
 
 export const ProjectCard = (props) => {
-        
+    const isTheKingzAce = props.title === "TheKingzAce";  
+
     return(
        
         <div className="project-card">
@@ -38,6 +39,10 @@ export const ProjectCard = (props) => {
                         {props.text}
                         <br/>
                         <a href={props.view} target="_blank" rel="noopener noreferrer" >Learn more <span>&gt;</span></a>
+                         {isTheKingzAce && (
+                             
+                             <a href={'https://www.thekingzace.com/'} target="_blank" rel="noopener noreferrer" > <br/> View Site <span>&gt;</span></a>
+                             )}
                     </p>
                     </Reveal>
                 
