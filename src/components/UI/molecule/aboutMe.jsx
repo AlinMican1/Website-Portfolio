@@ -6,8 +6,7 @@ import BlobImage from '../atom/animations/blobImage';
 import Button from '../atom/button';
 import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from 'react-icons/fa';
-import CV from "../../../assets/AlinMicanCV.pdf"
-
+import CV from "../../../assets/MAIN_CV.pdf"
 
 export const AboutMe = () => {
 
