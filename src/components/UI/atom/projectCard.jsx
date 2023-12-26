@@ -5,6 +5,7 @@ import Reveal from "./animations/reveal";
 
 export const ProjectCard = (props) => {
     const isTheKingzAce = props.title === "TheKingzAce";  
+    const isWorkoutApp = props.title === "Workout App"
 
     return(
        
@@ -22,10 +23,7 @@ export const ProjectCard = (props) => {
                         </Reveal>     
                     </a>                    
                     </h2>
-                    
-                    
-                    
-                    
+
                 <h3 className="project-type">
                     <Reveal>
                     {props.type}
@@ -43,10 +41,16 @@ export const ProjectCard = (props) => {
                              
                              <a href={'https://www.thekingzace.com/'} target="_blank" rel="noopener noreferrer" > <br/> View Site <span>&gt;</span></a>
                              )}
+                        {isWorkoutApp && (
+                             
+                             <a href={'https://workout-app-nine.vercel.app/login'} target="_blank" rel="noopener noreferrer" > <br/> View Site <span>&gt;</span></a>
+                             )}
                     </p>
                     </Reveal>
                 
-            </div>
+                </div>
+
+                
         </div>
             
        

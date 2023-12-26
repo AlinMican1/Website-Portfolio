@@ -1,12 +1,11 @@
 import React from 'react';
 import './aboutMe.css';
-import {motion} from 'framer-motion';
 import Reveal from '../atom/animations/reveal';
 import BlobImage from '../atom/animations/blobImage';
 import Button from '../atom/button';
 import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from 'react-icons/fa';
-import CV from "../../../assets/MAIN_CV.pdf"
+import CV from "../../../assets/Alin_Mican_Main_CV.pdf"
 
 export const AboutMe = () => {
 

@@ -5,6 +5,7 @@ import Website from "../../../assets/website.JPG";
 import Controller from "../../../assets/Controller.png"
 import TheKingzAceWeb from '../../../assets/TheKingaceWebsite.png'
 import Minesweeper from '../../../assets/minesweeper.JPG'
+import WorkoutApp from '../../../assets/workoutApp-pic.JPG'
 
 const data_projects = [
     {
@@ -55,6 +56,20 @@ const data_projects = [
         text: " Minesweeper game is developed employing Object-Oriented Programming (OOP) principles, utilizing the Tkinter library to establish the graphical interface for user interaction within the game.",
         view: "https://github.com/AlinMican1/MineSweeper",
         type: "Python - Tkinter"
+    },
+    {
+        imgsrc: TheKingzAceWeb,
+        title: "TheKingzAce",
+        text: "In a freelance capacity, I undertook the task of developing a website for an online influencer specializing in aviation. The resulting website boasts complete responsiveness, coupled with an array of distinctive attributes such as bespoke features and engaging animations. ",
+        view: "https://github.com/AlinMican1/jkingzy-app",
+        type: "React - NextJs - Figma - NodeJs - JavaScript - CSS - HTML"
+    },
+    {
+        imgsrc: WorkoutApp,
+        title: "Workout App",
+        text: "This mobile app, in its testing phase, employs REST API calls and authentication. So far users can sign up/in, craft workout plans, and track progress and personal bests. Security measures include middleware and data encryption for complete application protection. ",
+        view: "https://github.com/AlinMican1/workoutApp",
+        type: "React - NextJs - Figma - NodeJs - JavaScript - CSS - HTML - Prisma - Tailwind CSS"
     },
 ];
 export default data_projects;
