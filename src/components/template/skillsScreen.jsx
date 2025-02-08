@@ -1,10 +1,9 @@
 import { Skills } from "../UI/molecule/skills";
+import { Tech } from "../UI/molecule/tech";
 export const SkillsScreen = () => {
-    return (
-        <div>
-            <Skills />
-
-        </div>
-    
-  )
-  };
+  return (
+    <div>
+      <Tech />
+    </div>
+  );
+};

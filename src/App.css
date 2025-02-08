@@ -1,63 +1,60 @@
 .App {
   text-align: center;
-  
-  display:flex;
+
+  display: flex;
   flex-direction: column;
   z-index: 1000;
-  
 }
-.particle{
+.particle {
   z-index: -10;
 }
 
 /*colour for text #d7b94c */
-.Section{
+.Section {
   min-height: 100px;
   min-width: 100px;
-  
 }
 
-#home{
+#home {
   background-color: transparent;
-  flex: 1,1,auto;
+  flex: 1, 1, auto;
   min-height: 100vh;
-  
 }
 
-#about{
+#about {
   min-height: 100vh;
-  flex: 1,1,auto;
+  flex: 1, 1, auto;
   background-color: #111;
-  border-top: solid #2c302e ;
+  border-top: solid #2c302e;
   padding-bottom: 2vh;
 }
 
-#skill{
+#skill {
   min-height: 100vh;
-  flex: 1,1,auto;
-  
+  flex: 1, 1, auto;
+
   background-color: #111;
-  border-top: solid #2c302e ;
+  border-top: solid #2c302e;
   padding-bottom: 2vh;
 }
-#projects{
+#projects {
   min-height: 100vh;
-  flex: 1,1,auto;
-  
+  flex: 1, 1, auto;
+
   background-color: #111;
-  border-top: solid #2c302e ;
+  border-top: solid #2c302e;
   padding-bottom: 2vh;
 }
 
-#contact{
+#contact {
   min-height: 100vh;
-  flex: 1,1,auto;
-  
+  flex: 1, 1, auto;
+
   background-color: #111;
-  border-top: solid #2c302e ;
+  border-top: solid #2c302e;
 }
-
-
-
-
-
+@media screen and (min-width: 0px) and (max-width: 835px) {
+  #skill {
+    min-height: 70vh;
+  }
+}

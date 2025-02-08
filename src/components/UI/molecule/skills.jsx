@@ -1,7 +1,7 @@
 import { Container, Col, Row } from "react-bootstrap";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
-import "./skills.css"
+import "./skills.css";
 import { SpeedOmeter } from "../atom/speedOmeter";
 import Reveal from "../atom/animations/reveal";
 import ReactLogo from "../../../assets/logo192.png";
@@ -10,38 +10,68 @@ import NodeLogo from "../../../assets/nodejs.png";
 import SciKitLogo from "../../../assets/scikitLogo.png";
 import JavaFxLogo from "../../../assets/javaFx.png";
 
-
-
 export const Skills = () => {
-    
-    const responsive = {
-        superLargeDesktop: {
-          // the naming can be any, depends on you.
-          breakpoint: { max: 4000, min: 3000 },
-          items: 5
-        },
-        interval:{
-          breakpoint: { max: 1200, min: 1000 },
-          items: 1,
-        },
-        desktop: {
-          breakpoint: { max: 3000, min: 1200 },
-          items: 2,
-        },
-        tablet: {
-          breakpoint: { max: 1000, min: 464 },
-          items: 1
-        },
-        mobile: {
-          breakpoint: { max: 464, min: 0 },
-          items: 1
-        }
-      };
+  const responsive = {
+    superLargeDesktop: {
+      // the naming can be any, depends on you.
+      breakpoint: { max: 4000, min: 3000 },
+      items: 5,
+    },
+    interval: {
+      breakpoint: { max: 1200, min: 1000 },
+      items: 1,
+    },
+    desktop: {
+      breakpoint: { max: 3000, min: 1200 },
+      items: 2,
+    },
+    tablet: {
+      breakpoint: { max: 1000, min: 464 },
+      items: 1,
+    },
+    mobile: {
+      breakpoint: { max: 464, min: 0 },
+      items: 1,
+    },
+  };
 
-    return (
-        <section className="skill" id = "skills">
-            
-            <Container>
+  return (
+    <section className="skill" id="skills">
+      <h1>
+        <Reveal>
+          Tech Stack<span>.</span>
+        </Reveal>
+      </h1>
+      <div className="techStack-container">
+        <div className="techStack-box">
+          <div className="techStack-box-img"></div>
+
+          <div className="techStack-box-img">
+            <img src={UnityLogo} />
+          </div>
+          <div className="techStack-box-img"></div>
+          <div className="techStack-box-img"></div>
+          <div className="techStack-box-img"></div>
+          {/* <div>
+            <img src={UnityLogo} />
+          </div>
+
+          <div>
+            <img src={ReactLogo} />
+          </div>
+          <div>
+            <img src={NodeLogo} />
+          </div>
+          <div>
+            <img src={SciKitLogo} />
+          </div>
+          <div>
+            <img src={JavaFxLogo} />
+          </div> */}
+        </div>
+      </div>
+
+      {/* <Container>
                 <Row>
                     <Col>
                     
@@ -79,26 +109,7 @@ export const Skills = () => {
                           <img src={JavaFxLogo}/>
                           </div>
                           
-                          {/*
-                          <img className="Icons" id="UnityIcon" src={UnityLogo}/>
-                          
-                          <img className="Icons" id="reactIcon" src={ReactLogo}/>
-                            
-                          
-                          
-                          
-                          <img className="Icons" id="NodeIcon" src={NodeLogo}/>
-                          
-                          
-                           
-                          
-                          <img className="Icons" id="SciKitIcon" src={SciKitLogo}/>
-                          
-                        
-                          
-                          
-                          <img className="Icons" id="JavaFxIcon" src={JavaFxLogo}/>
-    */}
+                         
                           
                           
                         </div>
@@ -200,9 +211,7 @@ export const Skills = () => {
                     
                 </Row>
 
-            </Container>
-            
-            
-        </section>
-    )
-}
+            </Container> */}
+    </section>
+  );
+};
