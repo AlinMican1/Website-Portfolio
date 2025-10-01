@@ -5,7 +5,7 @@ import BlobImage from "../atom/animations/blobImage";
 import Button from "../atom/button";
 import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
-import CV from "../../../assets/Alin Gabriel Mican CV.pdf";
+import CV from "../../../assets/AlinGabrielMCV.pdf";
 
 export const AboutMe = () => {
   return (
